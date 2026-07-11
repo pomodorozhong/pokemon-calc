@@ -34,6 +34,17 @@ export function PokemonPicker({
     searchInputRef.current?.focus()
   }, [activeSlot])
 
+  useEffect(() => {
+    if (!activeSlot) return
+
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === 'Escape') dismiss()
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [activeSlot, dismiss])
+
   const filtered = useMemo(() => {
     const filteredList = filterPokemon(pokemon, query, typeFilter, pokemonName)
     return sortPokemon(filteredList, sortMode)
@@ -44,8 +55,18 @@ export function PokemonPicker({
   const sideLabel = activeSlot.side === 'ours' ? 'Your team' : 'Opponent'
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-slate-950/80 p-4 sm:items-center">
-      <div className="flex h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl">
+    <div
+      className="fixed inset-0 z-50 flex items-end justify-center bg-slate-950/80 p-4 sm:items-center"
+      onClick={dismiss}
+      role="presentation"
+    >
+      <div
+        className="flex h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl"
+        onClick={(event) => event.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Choose Pokemon"
+      >
         <header className="flex items-center justify-between border-b border-slate-700 px-5 py-4">
           <div>
             <h3 className="text-lg font-bold text-white">Choose Pokemon</h3>
