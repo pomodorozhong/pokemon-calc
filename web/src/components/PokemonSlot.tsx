@@ -57,11 +57,17 @@ export function PokemonSlot({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      {highlighted && pokemon && (
+        <span className="pointer-events-none absolute right-3 top-0 z-10 -translate-y-1/2 rounded-full bg-amber-400 px-2 py-0.5 text-[10px] font-bold uppercase text-slate-900 shadow-sm">
+          top pick
+        </span>
+      )}
+
       <button
         type="button"
         onClick={onClick}
         className={[
-          'group relative flex h-[4.75rem] w-full items-center gap-3 overflow-hidden rounded-xl border-2 bg-slate-900/70 px-3 text-left transition',
+          'group relative flex h-[4.75rem] w-full items-center gap-3 rounded-xl border-2 bg-slate-900/70 px-3 text-left transition',
           borderColor,
           highlighted ? 'ring-2 ring-amber-400 shadow-lg shadow-amber-500/20' : 'hover:bg-slate-800/80',
           !pokemon ? 'border-dashed' : 'border-solid',
@@ -142,12 +148,6 @@ export function PokemonSlot({
                 className="absolute right-2 top-1.5 rounded-full bg-slate-800/90 px-2 py-0.5 text-[10px] text-slate-300 opacity-0 transition group-hover:opacity-100"
               >
                 clear
-              </span>
-            )}
-
-            {highlighted && (
-              <span className="absolute -right-1 -top-1 rounded-full bg-amber-400 px-1.5 py-0.5 text-[9px] font-bold uppercase text-slate-900">
-                top
               </span>
             )}
           </>

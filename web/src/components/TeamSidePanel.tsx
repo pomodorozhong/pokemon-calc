@@ -45,7 +45,7 @@ export function TeamSidePanel({
         )}
       </header>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 pt-2">
         {Array.from({ length: TEAM_SLOTS }, (_, index) => {
           const mon = team[index]
           const summary = mon ? summaries.get(mon.name) : undefined
