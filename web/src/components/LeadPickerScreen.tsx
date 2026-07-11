@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type MouseEvent } from 'react'
+import { dismissTips, readPersistedPrefs } from '@/lib/cookies'
 import type { Pokemon, TypeChart } from '@/types/pokemon'
 import {
   loadPokemon,
@@ -28,7 +29,16 @@ export function LeadPickerScreen() {
   const [typeNames, setTypeNames] = useState<Record<string, string> | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [tipsVisible, setTipsVisible] = useState(
+    () => !readPersistedPrefs()?.tipsDismissed,
+  )
   const hasHydratedTeam = useRef(false)
+
+  function hideTips(event: MouseEvent<HTMLButtonElement>) {
+    event.preventDefault()
+    dismissTips()
+    setTipsVisible(false)
+  }
 
   useEffect(() => {
     let cancelled = false
@@ -155,25 +165,61 @@ export function LeadPickerScreen() {
         </div>
       </header>
 
-      <div className="rounded-2xl border border-slate-700 bg-slate-900/50 px-4 py-3 text-sm text-slate-300">
-        <p>
-          <span className="font-semibold text-blue-300">Before the match:</span> fill your team on the left.
-        </p>
-        <p>
-          <span className="font-semibold text-red-300">During team preview:</span> add revealed opponent Pokemon on the right.
-        </p>
-        {showAnalysis ? (
-          <p className="mt-1 text-amber-200">
-            Matchup chips and top 3 highlights are active on both sides.
+      {tipsVisible ? (
+        <div
+          role="note"
+          className="relative rounded-2xl border border-blue-500/30 border-l-4 border-l-blue-400 bg-blue-950/20 px-4 py-3 pr-12 text-sm text-slate-300"
+        >
+          <div className="mb-2 flex items-center gap-2">
+            <span className="text-base" aria-hidden="true">
+              💡
+            </span>
+            <p className="font-semibold text-blue-200">
+              {t('tips.title', 'Tip')}
+            </p>
+          </div>
+          <ul className="space-y-1.5 pl-1">
+            <li>
+              <span className="font-medium text-blue-300">
+                {t('tips.beforeMatch.label', 'Before the match')}
+              </span>
+              {' — '}
+              {t('tips.beforeMatch.body', 'build your team on the left.')}
+            </li>
+            <li>
+              <span className="font-medium text-red-300">
+                {t('tips.teamPreview.label', 'During team preview')}
+              </span>
+              {' — '}
+              {t(
+                'tips.teamPreview.body',
+                'add revealed opponent Pokémon on the right.',
+              )}
+            </li>
+          </ul>
+          <p className="mt-2 text-slate-400">
+            {showAnalysis
+              ? t(
+                  'tips.analysisActive',
+                  'Type matchup chips and top-3 highlights are live on both sides.',
+                )
+              : t(
+                  'tips.analysisHint',
+                  'Add opponent Pokémon to unlock weakness and lead recommendation chips.',
+                )}
           </p>
-        ) : (
-          <p className="mt-1 text-slate-400">
-            Add opponent Pokemon to see weakness and effectiveness chips.
-          </p>
-        )}
-      </div>
+          <button
+            type="button"
+            onClick={hideTips}
+            aria-label={t('tips.dismiss', 'Dismiss tip')}
+            className="absolute top-3 right-3 flex h-7 w-7 items-center justify-center rounded-lg text-lg leading-none text-slate-400 transition hover:bg-slate-800/80 hover:text-slate-200"
+          >
+            ×
+          </button>
+        </div>
+      ) : null}
 
-      <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
         <TeamSidePanel
           title="Your team"
           subtitle="Bring 6 — pick your best leads"

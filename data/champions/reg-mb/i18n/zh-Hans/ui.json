@@ -36,5 +36,13 @@
   "effectiveness.neutral": "一般",
   "format.bring6pick4": "携带6选4",
   "format.openTeamSheet": "公开队伍表",
-  "format.spCap": "66点上限（单项最多32）"
+  "format.spCap": "66点上限（单项最多32）",
+  "tips.title": "提示",
+  "tips.dismiss": "关闭提示",
+  "tips.beforeMatch.label": "赛前",
+  "tips.beforeMatch.body": "在左侧组建你的队伍。",
+  "tips.teamPreview.label": "队伍预览时",
+  "tips.teamPreview.body": "在右侧添加已公开的对手宝可梦。",
+  "tips.analysisHint": "添加对手宝可梦后，将显示弱点与首发推荐标签。",
+  "tips.analysisActive": "双方队伍已显示属性相克标签与前三推荐。"
 }

@@ -6,6 +6,7 @@ const TEAM_SIZE = 6
 export interface PersistedPrefs {
   locale: string
   ourTeam: (string | null)[]
+  tipsDismissed?: boolean
 }
 
 function cookiePath(): string {
@@ -51,6 +52,7 @@ export function readPersistedPrefs(): PersistedPrefs | null {
     return {
       locale,
       ourTeam: normalizeTeam(parsed.ourTeam),
+      tipsDismissed: parsed.tipsDismissed === true,
     }
   } catch {
     return null
@@ -58,13 +60,22 @@ export function readPersistedPrefs(): PersistedPrefs | null {
 }
 
 export function writePersistedPrefs(prefs: PersistedPrefs): void {
-  writeCookie(
-    COOKIE_NAME,
-    JSON.stringify({
-      locale: prefs.locale,
-      ourTeam: normalizeTeam(prefs.ourTeam),
-    }),
-  )
+  const payload: Record<string, unknown> = {
+    locale: prefs.locale,
+    ourTeam: normalizeTeam(prefs.ourTeam),
+  }
+  if (prefs.tipsDismissed) {
+    payload.tipsDismissed = true
+  }
+  writeCookie(COOKIE_NAME, JSON.stringify(payload))
+}
+
+export function dismissTips(): void {
+  const current = readPersistedPrefs() ?? {
+    locale: 'en',
+    ourTeam: normalizeTeam([]),
+  }
+  writePersistedPrefs({ ...current, tipsDismissed: true })
 }
 
 export function teamToSlugs(team: Array<{ name: string } | null>): (string | null)[] {
