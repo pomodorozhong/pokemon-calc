@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Pokemon } from '@/types/pokemon'
 import { filterPokemon, sortPokemon, type SortMode } from '@/lib/pokemonSort'
 import { spriteUrl, typeSpriteUrl } from '@/lib/pokemon'
@@ -24,12 +24,14 @@ export function PokemonPicker({
   const [query, setQuery] = useState('')
   const [typeFilter, setTypeFilter] = useState<string | null>(null)
   const [sortMode, setSortMode] = useState<SortMode>('meta')
+  const searchInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     if (!activeSlot) return
     setQuery('')
     setTypeFilter(null)
     setSortMode('meta')
+    searchInputRef.current?.focus()
   }, [activeSlot])
 
   const filtered = useMemo(() => {
@@ -62,6 +64,7 @@ export function PokemonPicker({
 
         <div className="space-y-3 border-b border-slate-700 px-5 py-4">
           <input
+            ref={searchInputRef}
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
