@@ -14,9 +14,11 @@ function emptyTeam(): (Pokemon | null)[] {
 }
 
 function persistOurTeamAndLocale(ourTeam: (Pokemon | null)[], locale: string): void {
+  const existing = readPersistedPrefs()
   writePersistedPrefs({
     locale,
     ourTeam: teamToSlugs(ourTeam),
+    tipsDismissed: existing?.tipsDismissed,
   })
 }
 

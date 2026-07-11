@@ -36,5 +36,13 @@
   "effectiveness.neutral": "普通",
   "format.bring6pick4": "6匹持ち4匹選出",
   "format.openTeamSheet": "オープンシート",
-  "format.spCap": "66SP上限（1項目最大32）"
+  "format.spCap": "66SP上限（1項目最大32）",
+  "tips.title": "ヒント",
+  "tips.dismiss": "ヒントを閉じる",
+  "tips.beforeMatch.label": "試合前",
+  "tips.beforeMatch.body": "左側で自分のチームを組みます。",
+  "tips.teamPreview.label": "チームプレビュー中",
+  "tips.teamPreview.body": "右側に公開された相手ポケモンを追加します。",
+  "tips.analysisHint": "相手ポケモンを追加すると、弱点と先発おすすめのチップが表示されます。",
+  "tips.analysisActive": "両チームにタイプ相性チップとトップ3のハイライトが表示されています。"
 }

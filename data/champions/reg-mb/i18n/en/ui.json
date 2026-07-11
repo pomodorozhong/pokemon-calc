@@ -36,5 +36,13 @@
   "effectiveness.neutral": "Neutral",
   "format.bring6pick4": "Bring 6, Pick 4",
   "format.openTeamSheet": "Open Team Sheet",
-  "format.spCap": "66 SP cap (32 max/stat)"
+  "format.spCap": "66 SP cap (32 max/stat)",
+  "tips.title": "Tip",
+  "tips.dismiss": "Dismiss tip",
+  "tips.beforeMatch.label": "Before the match",
+  "tips.beforeMatch.body": "build your team on the left.",
+  "tips.teamPreview.label": "During team preview",
+  "tips.teamPreview.body": "add revealed opponent Pokémon on the right.",
+  "tips.analysisHint": "Add opponent Pokémon to unlock weakness and lead recommendation chips.",
+  "tips.analysisActive": "Type matchup chips and top-3 highlights are live on both sides."
 }
