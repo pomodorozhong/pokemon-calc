@@ -30,6 +30,7 @@ interface TeamState {
   closePicker: () => void
   assignPokemon: (pokemon: Pokemon) => void
   clearSlot: (side: TeamSide, index: number) => void
+  clearOpponentTeam: () => void
   resetTeams: () => void
   hydrateOurTeam: (pokemon: Pokemon[]) => void
 }
@@ -79,6 +80,10 @@ export const useTeamStore = create<TeamState>((set, get) => ({
     const team = [...opponentTeam]
     team[index] = null
     set({ opponentTeam: team })
+  },
+
+  clearOpponentTeam: () => {
+    set({ opponentTeam: emptyTeam(), activeSlot: null })
   },
 
   resetTeams: () => {

@@ -43,7 +43,7 @@ export function PokemonPicker({
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-slate-950/80 p-4 sm:items-center">
-      <div className="flex max-h-[90vh] w-full max-w-4xl flex-col overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl">
+      <div className="flex h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl">
         <header className="flex items-center justify-between border-b border-slate-700 px-5 py-4">
           <div>
             <h3 className="text-lg font-bold text-white">Choose Pokemon</h3>
@@ -111,7 +111,7 @@ export function PokemonPicker({
           </div>
         </div>
 
-        <div className="overflow-y-auto px-3 py-3">
+        <div className="min-h-0 flex-1 overflow-y-auto px-3 py-3">
           <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
             {filtered.map((mon) => (
               <button

@@ -55,8 +55,15 @@ export interface SlotTarget {
   index: number
 }
 
+export interface MatchupDetail {
+  opponentName: string
+  multiplier: number
+}
+
 export interface MatchupSummary {
   weakToCount: number
   effectiveToCount: number
   score: number
+  weakTo: MatchupDetail[]
+  effectiveTo: MatchupDetail[]
 }

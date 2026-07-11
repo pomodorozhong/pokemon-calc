@@ -15,6 +15,8 @@ export function summarizeMatchup(
   let weakToCount = 0
   let effectiveToCount = 0
   let score = 0
+  const weakTo: MatchupSummary['weakTo'] = []
+  const effectiveTo: MatchupSummary['effectiveTo'] = []
 
   for (const opponent of opponents) {
     const offense = offensiveMultiplier(chart, mon.types, opponent.types)
@@ -22,6 +24,7 @@ export function summarizeMatchup(
 
     if (isSuperEffective(offense)) {
       effectiveToCount += 1
+      effectiveTo.push({ opponentName: opponent.name, multiplier: offense })
       score += offense >= 4 ? 2 : 1
     } else if (offense > 0 && offense < 1) {
       score -= 0.5
@@ -29,13 +32,14 @@ export function summarizeMatchup(
 
     if (isWeakTo(defense)) {
       weakToCount += 1
+      weakTo.push({ opponentName: opponent.name, multiplier: defense })
       score -= defense >= 4 ? 2 : 1
     } else if (defense > 0 && defense < 1) {
       score += 0.5
     }
   }
 
-  return { weakToCount, effectiveToCount, score }
+  return { weakToCount, effectiveToCount, score, weakTo, effectiveTo }
 }
 
 export function analyzeTeam(
