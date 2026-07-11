@@ -24,7 +24,7 @@ export function summarizeMatchup(
 
     if (isSuperEffective(offense)) {
       effectiveToCount += 1
-      effectiveTo.push({ opponentName: opponent.name, multiplier: offense })
+      effectiveTo.push({ opponentName: opponent.name, opponentId: opponent.id, multiplier: offense })
       score += offense >= 4 ? 2 : 1
     } else if (offense > 0 && offense < 1) {
       score -= 0.5
@@ -32,7 +32,7 @@ export function summarizeMatchup(
 
     if (isWeakTo(defense)) {
       weakToCount += 1
-      weakTo.push({ opponentName: opponent.name, multiplier: defense })
+      weakTo.push({ opponentName: opponent.name, opponentId: opponent.id, multiplier: defense })
       score -= defense >= 4 ? 2 : 1
     } else if (defense > 0 && defense < 1) {
       score += 0.5

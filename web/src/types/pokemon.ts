@@ -57,6 +57,7 @@ export interface SlotTarget {
 
 export interface MatchupDetail {
   opponentName: string
+  opponentId: number
   multiplier: number
 }
 
