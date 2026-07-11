@@ -1,0 +1,72 @@
+{
+  "game": "Pokemon Champions",
+  "regulation": "reg-mb",
+  "description": "Static battle mechanics constants for Pokemon Champions mid-battle calculations.",
+  "stat_stages": {
+    "-6": 0.25,
+    "-5": 0.2857,
+    "-4": 0.3333,
+    "-3": 0.4,
+    "-2": 0.5,
+    "-1": 0.6667,
+    "0": 1.0,
+    "1": 1.5,
+    "2": 2.0,
+    "3": 2.5,
+    "4": 3.0,
+    "5": 3.5,
+    "6": 4.0
+  },
+  "nature_multipliers": {
+    "boosted": 1.1,
+    "lowered": 0.9,
+    "neutral": 1.0
+  },
+  "weather": {
+    "sun": {
+      "fire": 1.5,
+      "water": 0.5
+    },
+    "rain": {
+      "fire": 0.5,
+      "water": 1.5
+    },
+    "sand": {},
+    "snow": {},
+    "harsh-sunshine": {
+      "fire": 1.5,
+      "water": 0.0
+    },
+    "heavy-rain": {
+      "fire": 0.25,
+      "water": 1.5
+    }
+  },
+  "terrain": {
+    "electric": {
+      "grounded_electric_boost": 1.3
+    },
+    "grassy": {
+      "grounded_grass_boost": 1.3,
+      "grounded_heal": 0.0625
+    },
+    "misty": {
+      "grounded_dragon_reduction": 0.5
+    },
+    "psychic": {
+      "grounded_psychic_boost": 1.3
+    }
+  },
+  "screens": {
+    "reflect": 0.5,
+    "light-screen": 0.5,
+    "aurora-veil": 0.5
+  },
+  "burn": {
+    "physical_attack_multiplier": 0.5
+  },
+  "critical_hit": {
+    "default_multiplier": 1.5,
+    "default_chance": 0.0417
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "game": "Pokemon Champions",
+  "regulation": "reg-mb",
+  "regulation_name": "Regulation Set M-B",
+  "description": "Battle mechanics for mid-battle damage and survival calculations in Pokemon Champions.",
+  "format": {
+    "battle_type": "doubles",
+    "team_size": 6,
+    "active_size": 4,
+    "level": 50,
+    "ivs": 31,
+    "stat_points": {
+      "total": 66,
+      "max_per_stat": 32,
+      "description": "Stat Points replace EVs. Each SP adds 1 to the final Lv50 stat."
+    },
+    "open_team_list": true,
+    "species_clause": true,
+    "item_clause": true,
+    "mega_evolution_limit_per_battle": 1,
+    "timers": {
+      "team_preview_seconds": 90,
+      "turn_seconds": 45,
+      "player_total_seconds": 420,
+      "game_cap_seconds": 1200
+    },
+    "banned_categories": [
+      "box-legendaries",
+      "restricted-legendaries",
+      "paradox-pokemon",
+      "treasures-of-ruin"
+    ]
+  },
+  "stat_formula": {
+    "level": 50,
+    "iv": 31,
+    "note": "All Pokemon auto-level to 50 with 31 IVs in Champions.",
+    "hp": "floor(((2 * base + iv + sp) * level / 100) + level + 10)",
+    "other": "floor(((2 * base + iv + sp) * level / 100 + 5) * nature * stage)",
+    "stat_points_per_point": 1,
+    "ev_conversion": {
+      "first_sp_cost_in_ev": 4,
+      "additional_sp_cost_in_ev": 8,
+      "max_sp_per_stat": 32,
+      "total_sp_cap": 66
+    }
+  },
+  "stat_stages": {
+    "-6": 0.25,
+    "-5": 0.2857,
+    "-4": 0.3333,
+    "-3": 0.4,
+    "-2": 0.5,
+    "-1": 0.6667,
+    "0": 1.0,
+    "1": 1.5,
+    "2": 2.0,
+    "3": 2.5,
+    "4": 3.0,
+    "5": 3.5,
+    "6": 4.0
+  },
+  "nature_multipliers": {
+    "boosted": 1.1,
+    "lowered": 0.9,
+    "neutral": 1.0
+  },
+  "doubles_modifiers": {
+    "spread_move_damage": 0.75,
+    "description": "Spread moves hit both opponents at 0.75x in doubles."
+  },
+  "weather": {
+    "sun": {
+      "fire": 1.5,
+      "water": 0.5
+    },
+    "rain": {
+      "fire": 0.5,
+      "water": 1.5
+    },
+    "sand": {},
+    "snow": {},
+    "harsh-sunshine": {
+      "fire": 1.5,
+      "water": 0.0
+    },
+    "heavy-rain": {
+      "fire": 0.25,
+      "water": 1.5
+    }
+  },
+  "terrain": {
+    "electric": {
+      "grounded_electric_boost": 1.3
+    },
+    "grassy": {
+      "grounded_grass_boost": 1.3,
+      "grounded_heal_fraction": 0.0625
+    },
+    "misty": {
+      "grounded_dragon_reduction": 0.5
+    },
+    "psychic": {
+      "grounded_psychic_boost": 1.3
+    }
+  },
+  "screens": {
+    "reflect": 0.5,
+    "light-screen": 0.5,
+    "aurora-veil": 0.5
+  },
+  "burn": {
+    "physical_attack_multiplier": 0.5
+  },
+  "critical_hit": {
+    "default_multiplier": 1.5,
+    "default_chance": 0.0417
+  },
+  "mega_evolution": {
+    "limit_per_battle": 1,
+    "new_in_reg_mb": [
+      "raichu-mega-x",
+      "raichu-mega-y",
+      "sceptile-mega",
+      "blaziken-mega",
+      "swampert-mega",
+      "mawile-mega",
+      "metagross-mega",
+      "staraptor-mega",
+      "scolipede-mega",
+      "scrafty-mega",
+      "eelektross-mega",
+      "pyroar-mega",
+      "malamar-mega",
+      "barbaracle-mega",
+      "dragalge-mega",
+      "falinks-mega"
+    ]
+  }
+}

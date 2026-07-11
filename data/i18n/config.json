@@ -1,0 +1,45 @@
+{
+  "defaultLocale": "en",
+  "fallbackLocale": "en",
+  "supportedLocales": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "pokeapiLanguage": "en",
+      "direction": "ltr"
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Chinese (Simplified)",
+      "nativeName": "简体中文",
+      "pokeapiLanguage": "zh-hans",
+      "direction": "ltr"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "pokeapiLanguage": "ja",
+      "direction": "ltr"
+    }
+  ],
+  "entityFiles": [
+    "ui",
+    "pokemon",
+    "moves",
+    "abilities",
+    "items",
+    "types",
+    "natures",
+    "stats",
+    "damageClasses",
+    "weather",
+    "terrain"
+  ],
+  "notes": [
+    "Canonical entity keys use English slugs (e.g. pikachu, close-combat).",
+    "Locale files map slug -> localized display string.",
+    "Missing translations fall back to defaultLocale, then slug humanization."
+  ]
+}
