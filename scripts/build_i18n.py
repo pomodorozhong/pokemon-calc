@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build i18n locale files for English, Chinese (Simplified), and Japanese."""
+"""Build i18n locale files for English, Chinese (Simplified & Traditional), and Japanese."""
 
 from __future__ import annotations
 
@@ -16,8 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 I18N = ROOT / "data" / "i18n"
 CHAMPIONS = ROOT / "data" / "champions" / "reg-mb"
-LOCALES = ("en", "zh-Hans", "ja")
-API_LANG = {"en": "en", "zh-Hans": "zh-hans", "ja": "ja"}
+LOCALES = ("en", "zh-Hans", "zh-Hant", "ja")
+API_LANG = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja"}
 REVERSE_LANG = {value: key for key, value in API_LANG.items()}
 MAX_RETRIES = 5
 RETRY_DELAY = 2.0
@@ -183,6 +183,46 @@ def build_ui_strings() -> dict[str, dict[str, str]]:
             "format.openTeamSheet": "公开队伍表",
             "format.spCap": "66点上限（单项最多32）"
         },
+        "zh-Hant": {
+            "app.title": "寶可夢計算器",
+            "app.subtitle": "寶可夢冠軍賽 對戰中的快速決策",
+            "regulation.current": "規則 M-B",
+            "nav.calculator": "計算器",
+            "nav.typeChart": "屬性相剋",
+            "nav.settings": "設定",
+            "settings.language": "語言",
+            "battle.doubles": "雙打",
+            "battle.singles": "單打",
+            "battle.attacker": "攻擊方",
+            "battle.defender": "防禦方",
+            "battle.move": "招式",
+            "battle.item": "道具",
+            "battle.ability": "特性",
+            "battle.nature": "性格",
+            "battle.level": "等級",
+            "battle.weather": "天氣",
+            "battle.terrain": "場地",
+            "battle.field.none": "無",
+            "battle.mega": "超級進化",
+            "battle.tera": "太晶屬性",
+            "battle.statPoints": "能力點數",
+            "battle.statPoints.remaining": "已用 {used} / {total} 點",
+            "battle.result.damage": "傷害",
+            "battle.result.koChance": "擊倒機率",
+            "battle.result.min": "最低",
+            "battle.result.max": "最高",
+            "battle.result.average": "平均",
+            "battle.result.survival": "能否承受？",
+            "battle.result.yes": "能",
+            "battle.result.no": "不能",
+            "effectiveness.super": "效果絕佳",
+            "effectiveness.notVery": "效果不佳",
+            "effectiveness.immune": "沒有效果",
+            "effectiveness.neutral": "一般",
+            "format.bring6pick4": "攜帶6選4",
+            "format.openTeamSheet": "公開隊伍表",
+            "format.spCap": "66點上限（單項最多32）"
+        },
         "ja": {
             "app.title": "ポケモン計算機",
             "app.subtitle": "ポケモンチャンピオンズ バトル中の判断支援",
@@ -228,31 +268,31 @@ def build_ui_strings() -> dict[str, dict[str, str]]:
 
 def build_static_labels() -> dict[str, dict[str, dict[str, str]]]:
     stats = {
-        "hp": {"en": "HP", "zh-Hans": "HP", "ja": "HP"},
-        "attack": {"en": "Attack", "zh-Hans": "攻击", "ja": "こうげき"},
-        "defense": {"en": "Defense", "zh-Hans": "防御", "ja": "ぼうぎょ"},
-        "special-attack": {"en": "Sp. Atk", "zh-Hans": "特攻", "ja": "とくこう"},
-        "special-defense": {"en": "Sp. Def", "zh-Hans": "特防", "ja": "とくぼう"},
-        "speed": {"en": "Speed", "zh-Hans": "速度", "ja": "すばやさ"},
+        "hp": {"en": "HP", "zh-Hans": "HP", "zh-Hant": "HP", "ja": "HP"},
+        "attack": {"en": "Attack", "zh-Hans": "攻击", "zh-Hant": "攻擊", "ja": "こうげき"},
+        "defense": {"en": "Defense", "zh-Hans": "防御", "zh-Hant": "防禦", "ja": "ぼうぎょ"},
+        "special-attack": {"en": "Sp. Atk", "zh-Hans": "特攻", "zh-Hant": "特攻", "ja": "とくこう"},
+        "special-defense": {"en": "Sp. Def", "zh-Hans": "特防", "zh-Hant": "特防", "ja": "とくぼう"},
+        "speed": {"en": "Speed", "zh-Hans": "速度", "zh-Hant": "速度", "ja": "すばやさ"},
     }
     damage_classes = {
-        "physical": {"en": "Physical", "zh-Hans": "物理", "ja": "物理"},
-        "special": {"en": "Special", "zh-Hans": "特殊", "ja": "特殊"},
-        "status": {"en": "Status", "zh-Hans": "变化", "ja": "変化"},
+        "physical": {"en": "Physical", "zh-Hans": "物理", "zh-Hant": "物理", "ja": "物理"},
+        "special": {"en": "Special", "zh-Hans": "特殊", "zh-Hant": "特殊", "ja": "特殊"},
+        "status": {"en": "Status", "zh-Hans": "变化", "zh-Hant": "變化", "ja": "変化"},
     }
     weather = {
-        "sun": {"en": "Sun", "zh-Hans": "大晴天", "ja": "にほんばれ"},
-        "rain": {"en": "Rain", "zh-Hans": "下雨", "ja": "あめ"},
-        "sand": {"en": "Sandstorm", "zh-Hans": "沙暴", "ja": "すなあらし"},
-        "snow": {"en": "Snow", "zh-Hans": "下雪", "ja": "ゆき"},
-        "harsh-sunshine": {"en": "Harsh Sunshine", "zh-Hans": "大日照", "ja": "かがやくにほんばれ"},
-        "heavy-rain": {"en": "Heavy Rain", "zh-Hans": "大雨", "ja": "おおあめ"},
+        "sun": {"en": "Sun", "zh-Hans": "大晴天", "zh-Hant": "大晴天", "ja": "にほんばれ"},
+        "rain": {"en": "Rain", "zh-Hans": "下雨", "zh-Hant": "下雨", "ja": "あめ"},
+        "sand": {"en": "Sandstorm", "zh-Hans": "沙暴", "zh-Hant": "沙暴", "ja": "すなあらし"},
+        "snow": {"en": "Snow", "zh-Hans": "下雪", "zh-Hant": "下雪", "ja": "ゆき"},
+        "harsh-sunshine": {"en": "Harsh Sunshine", "zh-Hans": "大日照", "zh-Hant": "大日照", "ja": "かがやくにほんばれ"},
+        "heavy-rain": {"en": "Heavy Rain", "zh-Hans": "大雨", "zh-Hant": "大雨", "ja": "おおあめ"},
     }
     terrain = {
-        "electric": {"en": "Electric Terrain", "zh-Hans": "电气场地", "ja": "エレキフィールド"},
-        "grassy": {"en": "Grassy Terrain", "zh-Hans": "青草场地", "ja": "グラスフィールド"},
-        "misty": {"en": "Misty Terrain", "zh-Hans": "薄雾场地", "ja": "ミストフィールド"},
-        "psychic": {"en": "Psychic Terrain", "zh-Hans": "精神场地", "ja": "サイコフィールド"},
+        "electric": {"en": "Electric Terrain", "zh-Hans": "电气场地", "zh-Hant": "電氣場地", "ja": "エレキフィールド"},
+        "grassy": {"en": "Grassy Terrain", "zh-Hans": "青草场地", "zh-Hant": "青草場地", "ja": "グラスフィールド"},
+        "misty": {"en": "Misty Terrain", "zh-Hans": "薄雾场地", "zh-Hant": "薄霧場地", "ja": "ミストフィールド"},
+        "psychic": {"en": "Psychic Terrain", "zh-Hans": "精神场地", "zh-Hant": "精神場地", "ja": "サイコフィールド"},
     }
     return {
         "stats": stats,

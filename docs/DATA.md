@@ -69,7 +69,7 @@ python3 scripts/build_champions.py
 # 3. Download sprites for legal Pokemon
 python3 scripts/download_sprites.py
 
-# 4. Build locale files (en, zh-Hans, ja)
+# 4. Build locale files (en, zh-Hans, zh-Hant, ja)
 python3 scripts/build_i18n.py
 ```
 
@@ -77,7 +77,7 @@ If `fetch_data.py` fails partway, run `python3 scripts/finish_fetch.py` to compl
 
 ## Internationalization (i18n)
 
-Supported locales: **English** (`en`), **Chinese Simplified** (`zh-Hans`), **Japanese** (`ja`).
+Supported locales: **English** (`en`), **Chinese Simplified** (`zh-Hans`), **Chinese Traditional** (`zh-Hant`), **Japanese** (`ja`).
 
 ```
 data/i18n/
@@ -100,6 +100,7 @@ data/champions/reg-mb/i18n/
 │   ├── weather.json
 │   └── terrain.json
 ├── zh-Hans/
+├── zh-Hant/
 └── ja/
 ```
 
