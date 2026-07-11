@@ -61,7 +61,7 @@ export function PokemonSlot({
         type="button"
         onClick={onClick}
         className={[
-          'group relative flex min-h-36 w-full flex-col rounded-2xl border-2 bg-slate-900/70 p-3 text-left transition',
+          'group relative flex h-40 w-full flex-col overflow-hidden rounded-2xl border-2 bg-slate-900/70 p-3 text-left transition',
           borderColor,
           highlighted ? 'ring-2 ring-amber-400 shadow-lg shadow-amber-500/20' : 'hover:bg-slate-800/80',
           !pokemon ? 'border-dashed' : 'border-solid',
@@ -73,59 +73,57 @@ export function PokemonSlot({
 
         {pokemon ? (
           <>
-            <div className="flex items-start gap-3">
+            <div className="flex min-h-0 items-start gap-3">
               <img
                 src={spriteUrl(pokemon.id)}
                 alt={pokemonName(pokemon.name)}
-                className="h-16 w-16 rounded-xl bg-slate-800 object-contain"
+                className="h-16 w-16 shrink-0 rounded-xl bg-slate-800 object-contain"
                 loading="lazy"
               />
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0 flex-1 overflow-hidden">
                 <p className="truncate font-semibold text-white">
                   {pokemonName(pokemon.name)}
                 </p>
-                <div className="mt-1 flex gap-1">
+                <div className="mt-1 flex min-w-0 gap-1 overflow-hidden">
                   {pokemon.types.map((type) => (
                     <img
                       key={type}
                       src={typeSpriteUrl(type)}
                       alt={type}
                       title={type}
-                      className="h-5 w-14 object-contain"
+                      className="h-5 min-w-0 max-w-[calc(50%-0.125rem)] flex-1 object-contain object-left"
                     />
                   ))}
                 </div>
               </div>
             </div>
 
-            {showChips && (
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {weakToCount > 0 && (
-                  <span
-                    className={[
-                      'rounded-full px-2 py-0.5 text-xs font-medium',
-                      hasQuadWeak
-                        ? 'bg-red-500/35 text-red-100 ring-1 ring-red-400/60'
-                        : 'bg-red-500/20 text-red-200',
-                    ].join(' ')}
-                  >
-                    weak to {weakToCount}
-                  </span>
-                )}
-                {effectiveToCount > 0 && (
-                  <span
-                    className={[
-                      'rounded-full px-2 py-0.5 text-xs font-medium',
-                      hasQuadEffective
-                        ? 'bg-emerald-500/35 text-emerald-100 ring-1 ring-emerald-400/60'
-                        : 'bg-emerald-500/20 text-emerald-200',
-                    ].join(' ')}
-                  >
-                    effective to {effectiveToCount}
-                  </span>
-                )}
-              </div>
-            )}
+            <div className="mt-3 flex h-6 shrink-0 items-center gap-1.5 overflow-hidden">
+              {showChips && weakToCount > 0 && (
+                <span
+                  className={[
+                    'truncate rounded-full px-2 py-0.5 text-xs font-medium',
+                    hasQuadWeak
+                      ? 'bg-red-500/35 text-red-100 ring-1 ring-red-400/60'
+                      : 'bg-red-500/20 text-red-200',
+                  ].join(' ')}
+                >
+                  weak to {weakToCount}
+                </span>
+              )}
+              {showChips && effectiveToCount > 0 && (
+                <span
+                  className={[
+                    'truncate rounded-full px-2 py-0.5 text-xs font-medium',
+                    hasQuadEffective
+                      ? 'bg-emerald-500/35 text-emerald-100 ring-1 ring-emerald-400/60'
+                      : 'bg-emerald-500/20 text-emerald-200',
+                  ].join(' ')}
+                >
+                  effective to {effectiveToCount}
+                </span>
+              )}
+            </div>
 
             {onClear && (
               <span
