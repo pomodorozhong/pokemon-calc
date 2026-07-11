@@ -173,7 +173,7 @@ export function LeadPickerScreen() {
         )}
       </div>
 
-      <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
         <TeamSidePanel
           title="Your team"
           subtitle="Bring 6 — pick your best leads"

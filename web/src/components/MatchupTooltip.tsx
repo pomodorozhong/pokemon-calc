@@ -7,6 +7,8 @@ const TOOLTIP_WIDTH = 288
 const VIEWPORT_PADDING = 12
 const GAP = 10
 
+type TooltipPlacement = 'left' | 'right' | 'above' | 'below'
+
 function formatMultiplier(multiplier: number): string {
   if (multiplier >= 4) return '4×'
   if (multiplier >= 2) return '2×'
@@ -83,61 +85,103 @@ function MatchupDetailList({
 
 interface MatchupTooltipProps {
   anchorRect: DOMRect
+  side: 'ours' | 'opponent'
   weakTo: MatchupDetail[]
   effectiveTo: MatchupDetail[]
   pokemonName: (slug: string) => string
 }
 
+function fitsHorizontally(left: number, width: number): boolean {
+  return left >= VIEWPORT_PADDING && left + width <= window.innerWidth - VIEWPORT_PADDING
+}
+
+function fitsVertically(top: number, height: number): boolean {
+  return top >= VIEWPORT_PADDING && top + height <= window.innerHeight - VIEWPORT_PADDING
+}
+
 export function MatchupTooltip({
   anchorRect,
+  side,
   weakTo,
   effectiveTo,
   pokemonName,
 }: MatchupTooltipProps) {
-  const [position, setPosition] = useState<{ top: number; left: number; placement: 'above' | 'below' } | null>(null)
+  const [position, setPosition] = useState<{ top: number; left: number; placement: TooltipPlacement } | null>(null)
   const [tooltipNode, setTooltipNode] = useState<HTMLDivElement | null>(null)
 
   useLayoutEffect(() => {
     if (!tooltipNode) return
 
     const tooltipRect = tooltipNode.getBoundingClientRect()
-    const centerX = anchorRect.left + anchorRect.width / 2
-    let left = centerX - TOOLTIP_WIDTH / 2
-    left = Math.max(
+    const preferredHorizontal: TooltipPlacement = side === 'ours' ? 'right' : 'left'
+    const fallbackHorizontal: TooltipPlacement = side === 'ours' ? 'left' : 'right'
+
+    const centerY = anchorRect.top + anchorRect.height / 2 - tooltipRect.height / 2
+    const clampedCenterY = Math.max(
       VIEWPORT_PADDING,
-      Math.min(left, window.innerWidth - TOOLTIP_WIDTH - VIEWPORT_PADDING),
+      Math.min(centerY, window.innerHeight - tooltipRect.height - VIEWPORT_PADDING),
     )
 
-    const spaceAbove = anchorRect.top - VIEWPORT_PADDING
-    const spaceBelow = window.innerHeight - anchorRect.bottom - VIEWPORT_PADDING
-    const preferAbove = spaceAbove >= tooltipRect.height + GAP || spaceAbove >= spaceBelow
+    const rightLeft = anchorRect.right + GAP
+    const leftLeft = anchorRect.left - TOOLTIP_WIDTH - GAP
+    const centerX = anchorRect.left + anchorRect.width / 2 - TOOLTIP_WIDTH / 2
 
-    let top: number
-    let placement: 'above' | 'below'
+    let top = clampedCenterY
+    let left = side === 'ours' ? rightLeft : leftLeft
+    let placement: TooltipPlacement = preferredHorizontal
 
-    if (preferAbove) {
-      top = anchorRect.top - tooltipRect.height - GAP
-      placement = 'above'
-      if (top < VIEWPORT_PADDING) {
-        top = anchorRect.bottom + GAP
-        placement = 'below'
-      }
+    if (preferredHorizontal === 'right' && fitsHorizontally(rightLeft, TOOLTIP_WIDTH)) {
+      left = rightLeft
+      placement = 'right'
+    } else if (preferredHorizontal === 'left' && fitsHorizontally(leftLeft, TOOLTIP_WIDTH)) {
+      left = leftLeft
+      placement = 'left'
+    } else if (fallbackHorizontal === 'right' && fitsHorizontally(rightLeft, TOOLTIP_WIDTH)) {
+      left = rightLeft
+      placement = 'right'
+    } else if (fallbackHorizontal === 'left' && fitsHorizontally(leftLeft, TOOLTIP_WIDTH)) {
+      left = leftLeft
+      placement = 'left'
     } else {
-      top = anchorRect.bottom + GAP
-      placement = 'below'
-      if (top + tooltipRect.height > window.innerHeight - VIEWPORT_PADDING) {
-        top = anchorRect.top - tooltipRect.height - GAP
+      left = Math.max(
+        VIEWPORT_PADDING,
+        Math.min(centerX, window.innerWidth - TOOLTIP_WIDTH - VIEWPORT_PADDING),
+      )
+
+      const belowTop = anchorRect.bottom + GAP
+      const aboveTop = anchorRect.top - tooltipRect.height - GAP
+
+      if (fitsVertically(belowTop, tooltipRect.height)) {
+        top = belowTop
+        placement = 'below'
+      } else if (fitsVertically(aboveTop, tooltipRect.height)) {
+        top = aboveTop
         placement = 'above'
+      } else {
+        top = clampedCenterY
+        placement = preferredHorizontal
       }
     }
 
     setPosition({ top, left, placement })
-  }, [anchorRect, tooltipNode, weakTo.length, effectiveTo.length])
+  }, [anchorRect, side, tooltipNode, weakTo.length, effectiveTo.length])
 
-  const arrowLeft = Math.min(
-    Math.max(anchorRect.left + anchorRect.width / 2 - (position?.left ?? 0), 20),
-    TOOLTIP_WIDTH - 20,
-  )
+  const arrowStyle = (() => {
+    if (!position) return undefined
+
+    if (position.placement === 'right') {
+      return { top: anchorRect.top + anchorRect.height / 2 - position.top - 6 }
+    }
+    if (position.placement === 'left') {
+      return { top: anchorRect.top + anchorRect.height / 2 - position.top - 6 }
+    }
+    return {
+      left: Math.min(
+        Math.max(anchorRect.left + anchorRect.width / 2 - position.left, 20),
+        TOOLTIP_WIDTH - 20,
+      ) - 6,
+    }
+  })()
 
   return createPortal(
     <div
@@ -169,11 +213,14 @@ export function MatchupTooltip({
           aria-hidden
           className={[
             'absolute h-3 w-3 rotate-45 border-slate-600 bg-slate-900/98',
-            position.placement === 'above'
-              ? '-bottom-1.5 border-b border-r'
-              : '-top-1.5 border-l border-t',
-          ].join(' ')}
-          style={{ left: arrowLeft - 6 }}
+            position.placement === 'right' && '-left-1.5 border-b border-l',
+            position.placement === 'left' && '-right-1.5 border-r border-t',
+            position.placement === 'above' && '-bottom-1.5 border-b border-r',
+            position.placement === 'below' && '-top-1.5 border-l border-t',
+          ]
+            .filter(Boolean)
+            .join(' ')}
+          style={arrowStyle}
         />
       )}
     </div>,

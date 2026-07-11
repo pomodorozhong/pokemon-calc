@@ -61,66 +61,65 @@ export function PokemonSlot({
         type="button"
         onClick={onClick}
         className={[
-          'group relative flex h-40 w-full flex-col overflow-hidden rounded-2xl border-2 bg-slate-900/70 p-3 text-left transition',
+          'group relative flex h-[4.75rem] w-full items-center gap-3 overflow-hidden rounded-xl border-2 bg-slate-900/70 px-3 text-left transition',
           borderColor,
           highlighted ? 'ring-2 ring-amber-400 shadow-lg shadow-amber-500/20' : 'hover:bg-slate-800/80',
           !pokemon ? 'border-dashed' : 'border-solid',
         ].join(' ')}
       >
-        <span className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+        <span className="w-10 shrink-0 text-[10px] font-semibold uppercase leading-tight tracking-wide text-slate-400">
           {label}
         </span>
 
         {pokemon ? (
           <>
-            <div className="flex min-h-0 items-start gap-3">
-              <img
-                src={spriteUrl(pokemon.id)}
-                alt={pokemonName(pokemon.name)}
-                className="h-16 w-16 shrink-0 rounded-xl bg-slate-800 object-contain"
-                loading="lazy"
-              />
-              <div className="min-w-0 flex-1 overflow-hidden">
-                <p className="truncate font-semibold text-white">
-                  {pokemonName(pokemon.name)}
-                </p>
-                <div className="mt-1 flex min-w-0 gap-1 overflow-hidden">
-                  {pokemon.types.map((type) => (
-                    <img
-                      key={type}
-                      src={typeSpriteUrl(type)}
-                      alt={type}
-                      title={type}
-                      className="h-5 min-w-0 max-w-[calc(50%-0.125rem)] flex-1 object-contain object-left"
-                    />
-                  ))}
-                </div>
+            <img
+              src={spriteUrl(pokemon.id)}
+              alt={pokemonName(pokemon.name)}
+              className="h-12 w-12 shrink-0 rounded-lg bg-slate-800 object-contain"
+              loading="lazy"
+            />
+
+            <div className="min-w-0 flex-1 overflow-hidden">
+              <p className="truncate font-semibold text-white">
+                {pokemonName(pokemon.name)}
+              </p>
+              <div className="mt-0.5 flex min-w-0 gap-1 overflow-hidden">
+                {pokemon.types.map((type) => (
+                  <img
+                    key={type}
+                    src={typeSpriteUrl(type)}
+                    alt={type}
+                    title={type}
+                    className="h-4 min-w-0 max-w-[calc(50%-0.125rem)] flex-1 object-contain object-left"
+                  />
+                ))}
               </div>
             </div>
 
-            <div className="mt-3 flex h-6 shrink-0 items-center gap-1.5 overflow-hidden">
+            <div className="flex h-6 w-36 shrink-0 items-center justify-end gap-1.5 overflow-hidden">
               {showChips && weakToCount > 0 && (
                 <span
                   className={[
-                    'truncate rounded-full px-2 py-0.5 text-xs font-medium',
+                    'truncate rounded-full px-2 py-0.5 text-[11px] font-medium',
                     hasQuadWeak
                       ? 'bg-red-500/35 text-red-100 ring-1 ring-red-400/60'
                       : 'bg-red-500/20 text-red-200',
                   ].join(' ')}
                 >
-                  weak to {weakToCount}
+                  weak {weakToCount}
                 </span>
               )}
               {showChips && effectiveToCount > 0 && (
                 <span
                   className={[
-                    'truncate rounded-full px-2 py-0.5 text-xs font-medium',
+                    'truncate rounded-full px-2 py-0.5 text-[11px] font-medium',
                     hasQuadEffective
                       ? 'bg-emerald-500/35 text-emerald-100 ring-1 ring-emerald-400/60'
                       : 'bg-emerald-500/20 text-emerald-200',
                   ].join(' ')}
                 >
-                  effective to {effectiveToCount}
+                  eff. {effectiveToCount}
                 </span>
               )}
             </div>
@@ -140,21 +139,21 @@ export function PokemonSlot({
                     onClear()
                   }
                 }}
-                className="absolute right-2 top-2 rounded-full bg-slate-800/90 px-2 py-0.5 text-xs text-slate-300 opacity-0 transition group-hover:opacity-100"
+                className="absolute right-2 top-1.5 rounded-full bg-slate-800/90 px-2 py-0.5 text-[10px] text-slate-300 opacity-0 transition group-hover:opacity-100"
               >
                 clear
               </span>
             )}
 
             {highlighted && (
-              <span className="absolute -right-2 -top-2 rounded-full bg-amber-400 px-2 py-0.5 text-[10px] font-bold uppercase text-slate-900">
-                top pick
+              <span className="absolute -right-1 -top-1 rounded-full bg-amber-400 px-1.5 py-0.5 text-[9px] font-bold uppercase text-slate-900">
+                top
               </span>
             )}
           </>
         ) : (
-          <div className="flex flex-1 flex-col items-center justify-center gap-2 text-slate-400">
-            <span className="text-3xl leading-none">+</span>
+          <div className="flex flex-1 items-center gap-2 text-slate-400">
+            <span className="text-2xl leading-none">+</span>
             <span className="text-sm">Add Pokemon</span>
           </div>
         )}
@@ -163,6 +162,7 @@ export function PokemonSlot({
       {showTooltip && anchorRect && (
         <MatchupTooltip
           anchorRect={anchorRect}
+          side={side}
           weakTo={weakTo}
           effectiveTo={effectiveTo}
           pokemonName={pokemonName}
