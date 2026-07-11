@@ -69,7 +69,8 @@ python3 scripts/build_champions.py
 # 3. Download sprites for legal Pokemon
 python3 scripts/download_sprites.py
 
-# 4. Build locale files (en, zh-Hans, zh-Hant, ja)
+# 4. Fetch PokeAPI name cache, then build locale files (en, zh-Hans, zh-Hant, ja)
+python3 scripts/fetch_i18n_raw.py
 python3 scripts/build_i18n.py
 ```
 
@@ -120,7 +121,7 @@ const t = (key) => ui[key];
 const pokemonName = (slug) => i18n.pokemon[slug] ?? i18n.pokemon.en?.[slug] ?? slug;
 ```
 
-Run `python3 scripts/build_i18n.py` after updating Champions data. Pass `--full` to also build the complete (unfiltered) locale set under `data/i18n/{locale}/`.
+Run `python3 scripts/fetch_i18n_raw.py` to cache PokeAPI responses under `data/raw/` (gitignored), then `python3 scripts/build_i18n.py` after updating Champions data. Pass `--full` to also build the complete (unfiltered) locale set under `data/i18n/{locale}/`.
 
 ## Full (unfiltered) exports
 

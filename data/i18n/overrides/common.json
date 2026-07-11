@@ -2,63 +2,63 @@
   "pokemon": {
     "raichu-mega-x": {
       "en": "Mega Raichu X",
-      "zh-Hans": "超级雷丘 X",
+      "zh-Hans": "雷丘",
       "ja": "メガライチュウX",
-      "zh-Hant": "超級雷丘 X"
+      "zh-Hant": "雷丘"
     },
     "raichu-mega-y": {
       "en": "Mega Raichu Y",
-      "zh-Hans": "超级雷丘 Y",
+      "zh-Hans": "雷丘",
       "ja": "メガライチュウY",
-      "zh-Hant": "超級雷丘 Y"
+      "zh-Hant": "雷丘"
     },
     "eelektross-mega": {
       "en": "Mega Eelektross",
-      "zh-Hans": "超级麻麻鳗鱼王",
+      "zh-Hans": "麻麻鳗鱼王",
       "ja": "メガシビルドン",
-      "zh-Hant": "超級麻麻鰻魚王"
+      "zh-Hant": "麻麻鰻魚王"
     },
     "pyroar-mega": {
       "en": "Mega Pyroar",
-      "zh-Hans": "超级火炎狮",
+      "zh-Hans": "火炎狮",
       "ja": "メガカエンジシ",
-      "zh-Hant": "超級火炎獅"
+      "zh-Hant": "火炎獅"
     },
     "scolipede-mega": {
       "en": "Mega Scolipede",
-      "zh-Hans": "超级蜈蚣王",
+      "zh-Hans": "蜈蚣王",
       "ja": "メガペンドラー",
-      "zh-Hant": "超級蜈蚣王"
+      "zh-Hant": "蜈蚣王"
     },
     "scrafty-mega": {
       "en": "Mega Scrafty",
-      "zh-Hans": "超级头巾混混",
+      "zh-Hans": "头巾混混",
       "ja": "メガズルズキン",
-      "zh-Hant": "超級頭巾混混"
+      "zh-Hant": "頭巾混混"
     },
     "barbaracle-mega": {
       "en": "Mega Barbaracle",
-      "zh-Hans": "超级龟足巨铠",
+      "zh-Hans": "龟足巨铠",
       "ja": "メガガメノデス",
-      "zh-Hant": "超級龜足巨鎧"
+      "zh-Hant": "龜足巨鎧"
     },
     "dragalge-mega": {
       "en": "Mega Dragalge",
-      "zh-Hans": "超级毒藻龙",
+      "zh-Hans": "毒藻龙",
       "ja": "メガドラミドロ",
-      "zh-Hant": "超級毒藻龍"
+      "zh-Hant": "毒藻龍"
     },
     "falinks-mega": {
       "en": "Mega Falinks",
-      "zh-Hans": "超级列阵兵",
+      "zh-Hans": "列阵兵",
       "ja": "メガタイレーツ",
-      "zh-Hant": "超級列陣兵"
+      "zh-Hant": "列陣兵"
     },
     "staraptor-mega": {
       "en": "Mega Staraptor",
-      "zh-Hans": "超级姆克鹰",
+      "zh-Hans": "姆克鹰",
       "ja": "メガムクホーク",
-      "zh-Hant": "超級姆克鷹"
+      "zh-Hant": "姆克鷹"
     },
     "meowstic-male-mega": {
       "en": "Mega Meowstic",
@@ -82,7 +82,7 @@
       "en": "Mega Scovillain",
       "zh-Hans": "超级热辣娃",
       "ja": "メガシコクサ",
-      "zh-Hant": "超級熱辣娃"
+      "zh-Hant": "超級狠辣椒"
     },
     "crabominable-mega": {
       "en": "Mega Crabominable",
