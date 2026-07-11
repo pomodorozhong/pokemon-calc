@@ -17,6 +17,13 @@
       "direction": "ltr"
     },
     {
+      "code": "zh-Hant",
+      "name": "Chinese (Traditional)",
+      "nativeName": "繁體中文",
+      "pokeapiLanguage": "zh-hant",
+      "direction": "ltr"
+    },
+    {
       "code": "ja",
       "name": "Japanese",
       "nativeName": "日本語",

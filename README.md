@@ -54,12 +54,13 @@ python3 scripts/download_sprites.py
 
 ## Internationalization
 
-Locale files for **English**, **简体中文**, and **日本語** live under `data/champions/reg-mb/i18n/`:
+Locale files for **English**, **简体中文**, **繁體中文**, and **日本語** live under `data/champions/reg-mb/i18n/`:
 
 | Locale | Code | Path |
 |--------|------|------|
 | English | `en` | `data/champions/reg-mb/i18n/en/` |
 | Chinese (Simplified) | `zh-Hans` | `data/champions/reg-mb/i18n/zh-Hans/` |
+| Chinese (Traditional) | `zh-Hant` | `data/champions/reg-mb/i18n/zh-Hant/` |
 | Japanese | `ja` | `data/champions/reg-mb/i18n/ja/` |
 
 Each locale folder contains `ui.json`, `pokemon.json`, `moves.json`, `items.json`, `abilities.json`, `types.json`, `natures.json`, and field labels (`stats`, `weather`, `terrain`). Entity keys stay as English slugs; locale files map slug → display name. See [`docs/DATA.md`](docs/DATA.md) for details.

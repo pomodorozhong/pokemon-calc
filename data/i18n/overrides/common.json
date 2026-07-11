@@ -2,287 +2,346 @@
   "pokemon": {
     "raichu-mega-x": {
       "en": "Mega Raichu X",
-      "zh-Hans": "超级雷丘 X",
-      "ja": "メガライチュウX"
+      "zh-Hans": "雷丘",
+      "ja": "メガライチュウX",
+      "zh-Hant": "雷丘"
     },
     "raichu-mega-y": {
       "en": "Mega Raichu Y",
-      "zh-Hans": "超级雷丘 Y",
-      "ja": "メガライチュウY"
+      "zh-Hans": "雷丘",
+      "ja": "メガライチュウY",
+      "zh-Hant": "雷丘"
     },
     "eelektross-mega": {
       "en": "Mega Eelektross",
-      "zh-Hans": "超级麻麻鳗鱼王",
-      "ja": "メガシビルドン"
+      "zh-Hans": "麻麻鳗鱼王",
+      "ja": "メガシビルドン",
+      "zh-Hant": "麻麻鰻魚王"
     },
     "pyroar-mega": {
       "en": "Mega Pyroar",
-      "zh-Hans": "超级火炎狮",
-      "ja": "メガカエンジシ"
+      "zh-Hans": "火炎狮",
+      "ja": "メガカエンジシ",
+      "zh-Hant": "火炎獅"
     },
     "scolipede-mega": {
       "en": "Mega Scolipede",
-      "zh-Hans": "超级蜈蚣王",
-      "ja": "メガペンドラー"
+      "zh-Hans": "蜈蚣王",
+      "ja": "メガペンドラー",
+      "zh-Hant": "蜈蚣王"
     },
     "scrafty-mega": {
       "en": "Mega Scrafty",
-      "zh-Hans": "超级头巾混混",
-      "ja": "メガズルズキン"
+      "zh-Hans": "头巾混混",
+      "ja": "メガズルズキン",
+      "zh-Hant": "頭巾混混"
     },
     "barbaracle-mega": {
       "en": "Mega Barbaracle",
-      "zh-Hans": "超级龟足巨铠",
-      "ja": "メガガメノデス"
+      "zh-Hans": "龟足巨铠",
+      "ja": "メガガメノデス",
+      "zh-Hant": "龜足巨鎧"
     },
     "dragalge-mega": {
       "en": "Mega Dragalge",
-      "zh-Hans": "超级毒藻龙",
-      "ja": "メガドラミドロ"
+      "zh-Hans": "毒藻龙",
+      "ja": "メガドラミドロ",
+      "zh-Hant": "毒藻龍"
     },
     "falinks-mega": {
       "en": "Mega Falinks",
-      "zh-Hans": "超级列阵兵",
-      "ja": "メガタイレーツ"
+      "zh-Hans": "列阵兵",
+      "ja": "メガタイレーツ",
+      "zh-Hant": "列陣兵"
     },
     "staraptor-mega": {
       "en": "Mega Staraptor",
-      "zh-Hans": "超级姆克鹰",
-      "ja": "メガムクホーク"
+      "zh-Hans": "姆克鹰",
+      "ja": "メガムクホーク",
+      "zh-Hant": "姆克鷹"
     },
     "meowstic-male-mega": {
       "en": "Mega Meowstic",
       "zh-Hans": "超级超能妙喵",
-      "ja": "メガニャオニクス"
+      "ja": "メガニャオニクス",
+      "zh-Hant": "超級超能妙喵"
     },
     "meowstic-female-mega": {
       "en": "Mega Meowstic",
       "zh-Hans": "超级超能妙喵",
-      "ja": "メガニャオニクス"
+      "ja": "メガニャオニクス",
+      "zh-Hant": "超級超能妙喵"
     },
     "glimmora-mega": {
       "en": "Mega Glimmora",
       "zh-Hans": "超级晶光花",
-      "ja": "メガキラフロル"
+      "ja": "メガキラフロル",
+      "zh-Hant": "超級晶光花"
     },
     "scovillain-mega": {
       "en": "Mega Scovillain",
       "zh-Hans": "超级热辣娃",
-      "ja": "メガシコクサ"
+      "ja": "メガシコクサ",
+      "zh-Hant": "超級狠辣椒"
     },
     "crabominable-mega": {
       "en": "Mega Crabominable",
       "zh-Hans": "超级好胜毛蟹",
-      "ja": "メガケケンカニ"
+      "ja": "メガケケンカニ",
+      "zh-Hant": "超級好勝毛蟹"
     },
     "chimecho-mega": {
       "en": "Mega Chimecho",
       "zh-Hans": "超级风铃铃",
-      "ja": "メガチリーン"
+      "ja": "メガチリーン",
+      "zh-Hant": "超級風鈴鈴"
     },
     "golurk-mega": {
       "en": "Mega Golurk",
       "zh-Hans": "超级泥偶巨人",
-      "ja": "メガゴルーグ"
+      "ja": "メガゴルーグ",
+      "zh-Hant": "超級泥偶巨人"
+    },
+    "kingambit": {
+      "zh-Hant": "仆斬將軍"
     }
   },
   "items": {
     "raichunite-x": {
       "en": "Raichunite X",
       "zh-Hans": "雷丘进化石X",
-      "ja": "ライチュウナイトX"
+      "ja": "ライチュウナイトX",
+      "zh-Hant": "雷丘進化石X"
     },
     "raichunite-y": {
       "en": "Raichunite Y",
       "zh-Hans": "雷丘进化石Y",
-      "ja": "ライチュウナイトY"
+      "ja": "ライチュウナイトY",
+      "zh-Hant": "雷丘進化石Y"
     },
     "barbaracite": {
       "en": "Barbaraclite",
       "zh-Hans": "龟足巨铠进化石",
-      "ja": "ガメノデスナイト"
+      "ja": "ガメノデスナイト",
+      "zh-Hant": "龜足巨鎧進化石"
     },
     "scolipite": {
       "en": "Scolipedeite",
       "zh-Hans": "蜈蚣王进化石",
-      "ja": "ペンドラーナイト"
+      "ja": "ペンドラーナイト",
+      "zh-Hant": "蜈蚣王進化石"
     },
     "scraftinite": {
       "en": "Scraftyite",
       "zh-Hans": "头巾混混进化石",
-      "ja": "ズルズキンナイト"
+      "ja": "ズルズキンナイト",
+      "zh-Hant": "頭巾混混進化石"
     },
     "staraptite": {
       "en": "Staraptorite",
       "zh-Hans": "姆克鹰进化石",
-      "ja": "ムクホークナイト"
+      "ja": "ムクホークナイト",
+      "zh-Hant": "姆克鷹進化石"
     },
     "eelektrossite": {
       "en": "Eelektrossite",
       "zh-Hans": "麻麻鳗鱼王进化石",
-      "ja": "シビルドンナイト"
+      "ja": "シビルドンナイト",
+      "zh-Hant": "麻麻鰻魚王進化石"
     },
     "pyroarite": {
       "en": "Pyroarite",
       "zh-Hans": "火炎狮进化石",
-      "ja": "カエンジシナイト"
+      "ja": "カエンジシナイト",
+      "zh-Hant": "火炎獅進化石"
     },
     "dragalgite": {
       "en": "Dragalgite",
       "zh-Hans": "毒藻龙进化石",
-      "ja": "ドラミドロナイト"
+      "ja": "ドラミドロナイト",
+      "zh-Hant": "毒藻龍進化石"
     },
     "falinksite": {
       "en": "Falinksite",
       "zh-Hans": "列阵兵进化石",
-      "ja": "タイレーツナイト"
+      "ja": "タイレーツナイト",
+      "zh-Hant": "列陣兵進化石"
     },
     "chimechite": {
       "en": "Chimechite",
       "zh-Hans": "风铃铃进化石",
-      "ja": "チリンナイト"
+      "ja": "チリンナイト",
+      "zh-Hant": "風鈴鈴進化石"
     },
     "crabominite": {
       "en": "Crabominite",
       "zh-Hans": "好胜毛蟹进化石",
-      "ja": "ケケンカニナイト"
+      "ja": "ケケンカニナイト",
+      "zh-Hant": "好勝毛蟹進化石"
     },
     "glimmoranite": {
       "en": "Glimmoranite",
       "zh-Hans": "晶光花进化石",
-      "ja": "キラフロルナイト"
+      "ja": "キラフロルナイト",
+      "zh-Hant": "晶光花進化石"
     },
     "scovillainite": {
       "en": "Scovillainite",
       "zh-Hans": "热辣娃进化石",
-      "ja": "シコクサナイト"
+      "ja": "シコクサナイト",
+      "zh-Hant": "熱辣娃進化石"
     },
     "excadrite": {
       "en": "Excadrillite",
       "zh-Hans": "龙头地鼠进化石",
-      "ja": "ドリュウズナイト"
+      "ja": "ドリュウズナイト",
+      "zh-Hant": "龍頭地鼠進化石"
     },
     "hawluchanite": {
       "en": "Hawluchanite",
       "zh-Hans": "摔角鹰人进化石",
-      "ja": "ルチャブルナイト"
+      "ja": "ルチャブルナイト",
+      "zh-Hant": "摔角鷹人進化石"
     },
     "skarmorite": {
       "en": "Skarmorite",
       "zh-Hans": "盔甲鸟进化石",
-      "ja": "エアームドナイト"
+      "ja": "エアームドナイト",
+      "zh-Hant": "盔甲鳥進化石"
     },
     "chesnaughtite": {
       "en": "Chesnaughtite",
       "zh-Hans": "布里卡隆进化石",
-      "ja": "ブリガロンナイト"
+      "ja": "ブリガロンナイト",
+      "zh-Hant": "布里卡隆進化石"
     },
     "delphoxite": {
       "en": "Delphoxite",
       "zh-Hans": "妖火红狐进化石",
-      "ja": "マフォクシーナイト"
+      "ja": "マフォクシーナイト",
+      "zh-Hant": "妖火紅狐進化石"
     },
     "emboarite": {
       "en": "Emboarite",
       "zh-Hans": "炎武王进化石",
-      "ja": "エンブオーナイト"
+      "ja": "エンブオーナイト",
+      "zh-Hant": "炎武王進化石"
     },
     "feraligite": {
       "en": "Feraligite",
       "zh-Hans": "大力鳄进化石",
-      "ja": "オーダイルナイト"
+      "ja": "オーダイルナイト",
+      "zh-Hant": "大力鱷進化石"
     },
     "meganiumite": {
       "en": "Meganiumite",
       "zh-Hans": "大竺葵进化石",
-      "ja": "メガニウムナイト"
+      "ja": "メガニウムナイト",
+      "zh-Hant": "大竺葵進化石"
     },
     "chandelurite": {
       "en": "Chandelurite",
       "zh-Hans": "水晶灯火灵进化石",
-      "ja": "シャンデラナイト"
+      "ja": "シャンデラナイト",
+      "zh-Hant": "水晶燈火靈進化石"
     },
     "drampanite": {
       "en": "Drampanite",
       "zh-Hans": "老翁龙进化石",
-      "ja": "ジジーロンナイト"
+      "ja": "ジジーロンナイト",
+      "zh-Hant": "老翁龍進化石"
     },
     "dragoninite": {
       "en": "Dragoninite",
       "zh-Hans": "快龙进化石",
-      "ja": "カイリューナイト"
+      "ja": "カイリューナイト",
+      "zh-Hant": "快龍進化石"
     },
     "floettite": {
       "en": "Floettite",
       "zh-Hans": "花叶蒂进化石",
-      "ja": "フラエッテナイト"
+      "ja": "フラエッテナイト",
+      "zh-Hant": "花葉蒂進化石"
     },
     "golurkite": {
       "en": "Golurkite",
       "zh-Hans": "泥偶巨人进化石",
-      "ja": "ゴルーグナイト"
+      "ja": "ゴルーグナイト",
+      "zh-Hant": "泥偶巨人進化石"
     },
     "greninjite": {
       "en": "Greninjite",
       "zh-Hans": "甲贺忍蛙进化石",
-      "ja": "ゲッコウガナイト"
+      "ja": "ゲッコウガナイト",
+      "zh-Hant": "甲賀忍蛙進化石"
     },
     "malamarite": {
       "en": "Malamarite",
       "zh-Hans": "乌贼王进化石",
-      "ja": "カラマネロナイト"
+      "ja": "カラマネロナイト",
+      "zh-Hant": "烏賊王進化石"
     },
     "meowsticite": {
       "en": "Meowsticite",
       "zh-Hans": "超能妙喵进化石",
-      "ja": "ニャオニクスナイト"
+      "ja": "ニャオニクスナイト",
+      "zh-Hant": "超能妙喵進化石"
     },
     "starminite": {
       "en": "Starminite",
       "zh-Hans": "宝石海星进化石",
-      "ja": "スターミーナイト"
+      "ja": "スターミーナイト",
+      "zh-Hant": "寶石海星進化石"
     },
     "victreebelite": {
       "en": "Victreebelite",
       "zh-Hans": "大食花进化石",
-      "ja": "ウツボットナイト"
+      "ja": "ウツボットナイト",
+      "zh-Hant": "大食花進化石"
     },
     "fairy-feather": {
       "en": "Fairy Feather",
       "zh-Hans": "妖精之羽",
-      "ja": "フェアリーフェザー"
+      "ja": "フェアリーフェザー",
+      "zh-Hant": "妖精之羽"
     }
   },
   "abilities": {
     "eelevate": {
       "en": "Eelevate",
       "zh-Hans": "电Elevation",
-      "ja": "エレベート"
+      "ja": "エレベート",
+      "zh-Hant": "電Elevation"
     },
     "piercing-drill": {
       "en": "Piercing Drill",
       "zh-Hans": "穿透钻",
-      "ja": "ピアッシングドリル"
+      "ja": "ピアッシングドリル",
+      "zh-Hant": "穿透鑽"
     },
     "fire-mane": {
       "en": "Fire Mane",
       "zh-Hans": "火鬃",
-      "ja": "ファイアメイン"
+      "ja": "ファイアメイン",
+      "zh-Hant": "火鬃"
     },
     "dragonize": {
       "en": "Dragonize",
       "zh-Hans": "龙化",
-      "ja": "ドラゴナイズ"
+      "ja": "ドラゴナイズ",
+      "zh-Hant": "龍化"
     },
     "mega-sol": {
       "en": "Mega Sol",
       "zh-Hans": "大日",
-      "ja": "メガソル"
+      "ja": "メガソル",
+      "zh-Hant": "大日"
     },
     "spicy-spray": {
       "en": "Spicy Spray",
       "zh-Hans": "辛辣喷射",
-      "ja": "スパイシースプレー"
+      "ja": "スパイシースプレー",
+      "zh-Hant": "辛辣噴射"
     }
   }
 }

@@ -33,6 +33,7 @@
     "locales": [
       "en",
       "zh-Hans",
+      "zh-Hant",
       "ja"
     ],
     "config": "data/i18n/config.json",

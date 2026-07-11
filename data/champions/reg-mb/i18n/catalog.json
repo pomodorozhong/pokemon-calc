@@ -1,9 +1,10 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-07-11T18:50:18Z",
+  "generated_at": "2026-07-11T19:52:06Z",
   "locales": [
     "en",
     "zh-Hans",
+    "zh-Hant",
     "ja"
   ],
   "config": "data/i18n/config.json",
@@ -11,11 +12,13 @@
   "full": {
     "en": "data/i18n/en/",
     "zh-Hans": "data/i18n/zh-Hans/",
+    "zh-Hant": "data/i18n/zh-Hant/",
     "ja": "data/i18n/ja/"
   },
   "champions_reg_mb": {
     "en": "data/champions/reg-mb/i18n/en/",
     "zh-Hans": "data/champions/reg-mb/i18n/zh-Hans/",
+    "zh-Hant": "data/champions/reg-mb/i18n/zh-Hant/",
     "ja": "data/champions/reg-mb/i18n/ja/"
   },
   "counts": {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build i18n locale files for English, Chinese (Simplified), and Japanese."""
+"""Build i18n locale files for English, Chinese (Simplified & Traditional), and Japanese."""
 
 from __future__ import annotations
 
@@ -16,8 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 I18N = ROOT / "data" / "i18n"
 CHAMPIONS = ROOT / "data" / "champions" / "reg-mb"
-LOCALES = ("en", "zh-Hans", "ja")
-API_LANG = {"en": "en", "zh-Hans": "zh-hans", "ja": "ja"}
+LOCALES = ("en", "zh-Hans", "zh-Hant", "ja")
+API_LANG = {"en": "en", "zh-Hans": "zh-hans", "zh-Hant": "zh-hant", "ja": "ja"}
 REVERSE_LANG = {value: key for key, value in API_LANG.items()}
 MAX_RETRIES = 5
 RETRY_DELAY = 2.0
@@ -183,6 +183,46 @@ def build_ui_strings() -> dict[str, dict[str, str]]:
             "format.openTeamSheet": "公开队伍表",
             "format.spCap": "66点上限（单项最多32）"
         },
+        "zh-Hant": {
+            "app.title": "寶可夢計算器",
+            "app.subtitle": "寶可夢冠軍賽 對戰中的快速決策",
+            "regulation.current": "規則 M-B",
+            "nav.calculator": "計算器",
+            "nav.typeChart": "屬性相剋",
+            "nav.settings": "設定",
+            "settings.language": "語言",
+            "battle.doubles": "雙打",
+            "battle.singles": "單打",
+            "battle.attacker": "攻擊方",
+            "battle.defender": "防禦方",
+            "battle.move": "招式",
+            "battle.item": "道具",
+            "battle.ability": "特性",
+            "battle.nature": "性格",
+            "battle.level": "等級",
+            "battle.weather": "天氣",
+            "battle.terrain": "場地",
+            "battle.field.none": "無",
+            "battle.mega": "超級進化",
+            "battle.tera": "太晶屬性",
+            "battle.statPoints": "能力點數",
+            "battle.statPoints.remaining": "已用 {used} / {total} 點",
+            "battle.result.damage": "傷害",
+            "battle.result.koChance": "擊倒機率",
+            "battle.result.min": "最低",
+            "battle.result.max": "最高",
+            "battle.result.average": "平均",
+            "battle.result.survival": "能否承受？",
+            "battle.result.yes": "能",
+            "battle.result.no": "不能",
+            "effectiveness.super": "效果絕佳",
+            "effectiveness.notVery": "效果不佳",
+            "effectiveness.immune": "沒有效果",
+            "effectiveness.neutral": "一般",
+            "format.bring6pick4": "攜帶6選4",
+            "format.openTeamSheet": "公開隊伍表",
+            "format.spCap": "66點上限（單項最多32）"
+        },
         "ja": {
             "app.title": "ポケモン計算機",
             "app.subtitle": "ポケモンチャンピオンズ バトル中の判断支援",
@@ -228,31 +268,31 @@ def build_ui_strings() -> dict[str, dict[str, str]]:
 
 def build_static_labels() -> dict[str, dict[str, dict[str, str]]]:
     stats = {
-        "hp": {"en": "HP", "zh-Hans": "HP", "ja": "HP"},
-        "attack": {"en": "Attack", "zh-Hans": "攻击", "ja": "こうげき"},
-        "defense": {"en": "Defense", "zh-Hans": "防御", "ja": "ぼうぎょ"},
-        "special-attack": {"en": "Sp. Atk", "zh-Hans": "特攻", "ja": "とくこう"},
-        "special-defense": {"en": "Sp. Def", "zh-Hans": "特防", "ja": "とくぼう"},
-        "speed": {"en": "Speed", "zh-Hans": "速度", "ja": "すばやさ"},
+        "hp": {"en": "HP", "zh-Hans": "HP", "zh-Hant": "HP", "ja": "HP"},
+        "attack": {"en": "Attack", "zh-Hans": "攻击", "zh-Hant": "攻擊", "ja": "こうげき"},
+        "defense": {"en": "Defense", "zh-Hans": "防御", "zh-Hant": "防禦", "ja": "ぼうぎょ"},
+        "special-attack": {"en": "Sp. Atk", "zh-Hans": "特攻", "zh-Hant": "特攻", "ja": "とくこう"},
+        "special-defense": {"en": "Sp. Def", "zh-Hans": "特防", "zh-Hant": "特防", "ja": "とくぼう"},
+        "speed": {"en": "Speed", "zh-Hans": "速度", "zh-Hant": "速度", "ja": "すばやさ"},
     }
     damage_classes = {
-        "physical": {"en": "Physical", "zh-Hans": "物理", "ja": "物理"},
-        "special": {"en": "Special", "zh-Hans": "特殊", "ja": "特殊"},
-        "status": {"en": "Status", "zh-Hans": "变化", "ja": "変化"},
+        "physical": {"en": "Physical", "zh-Hans": "物理", "zh-Hant": "物理", "ja": "物理"},
+        "special": {"en": "Special", "zh-Hans": "特殊", "zh-Hant": "特殊", "ja": "特殊"},
+        "status": {"en": "Status", "zh-Hans": "变化", "zh-Hant": "變化", "ja": "変化"},
     }
     weather = {
-        "sun": {"en": "Sun", "zh-Hans": "大晴天", "ja": "にほんばれ"},
-        "rain": {"en": "Rain", "zh-Hans": "下雨", "ja": "あめ"},
-        "sand": {"en": "Sandstorm", "zh-Hans": "沙暴", "ja": "すなあらし"},
-        "snow": {"en": "Snow", "zh-Hans": "下雪", "ja": "ゆき"},
-        "harsh-sunshine": {"en": "Harsh Sunshine", "zh-Hans": "大日照", "ja": "かがやくにほんばれ"},
-        "heavy-rain": {"en": "Heavy Rain", "zh-Hans": "大雨", "ja": "おおあめ"},
+        "sun": {"en": "Sun", "zh-Hans": "大晴天", "zh-Hant": "大晴天", "ja": "にほんばれ"},
+        "rain": {"en": "Rain", "zh-Hans": "下雨", "zh-Hant": "下雨", "ja": "あめ"},
+        "sand": {"en": "Sandstorm", "zh-Hans": "沙暴", "zh-Hant": "沙暴", "ja": "すなあらし"},
+        "snow": {"en": "Snow", "zh-Hans": "下雪", "zh-Hant": "下雪", "ja": "ゆき"},
+        "harsh-sunshine": {"en": "Harsh Sunshine", "zh-Hans": "大日照", "zh-Hant": "大日照", "ja": "かがやくにほんばれ"},
+        "heavy-rain": {"en": "Heavy Rain", "zh-Hans": "大雨", "zh-Hant": "大雨", "ja": "おおあめ"},
     }
     terrain = {
-        "electric": {"en": "Electric Terrain", "zh-Hans": "电气场地", "ja": "エレキフィールド"},
-        "grassy": {"en": "Grassy Terrain", "zh-Hans": "青草场地", "ja": "グラスフィールド"},
-        "misty": {"en": "Misty Terrain", "zh-Hans": "薄雾场地", "ja": "ミストフィールド"},
-        "psychic": {"en": "Psychic Terrain", "zh-Hans": "精神场地", "ja": "サイコフィールド"},
+        "electric": {"en": "Electric Terrain", "zh-Hans": "电气场地", "zh-Hant": "電氣場地", "ja": "エレキフィールド"},
+        "grassy": {"en": "Grassy Terrain", "zh-Hans": "青草场地", "zh-Hant": "青草場地", "ja": "グラスフィールド"},
+        "misty": {"en": "Misty Terrain", "zh-Hans": "薄雾场地", "zh-Hant": "薄霧場地", "ja": "ミストフィールド"},
+        "psychic": {"en": "Psychic Terrain", "zh-Hans": "精神场地", "zh-Hant": "精神場地", "ja": "サイコフィールド"},
     }
     return {
         "stats": stats,
@@ -288,19 +328,35 @@ def pokemon_display_names(slug: str, raw: dict[str, Any], overrides: dict[str, A
     return merge_names(slug, names, overrides, "pokemon")
 
 
+def load_existing_names(category: str) -> dict[str, dict[str, str]]:
+    """Reuse checked-in locale files when PokeAPI raw cache is unavailable."""
+    existing: dict[str, dict[str, str]] = {}
+    file_name = f"{category}.json"
+    for locale in LOCALES:
+        path = CHAMPIONS / "i18n" / locale / file_name
+        if not path.exists():
+            continue
+        for slug, name in load_json(path).items():
+            existing.setdefault(slug, {})[locale] = name
+    return existing
+
+
 def build_entity_names(
     slugs: list[str],
     raw_dir: Path,
     category: str,
     overrides: dict[str, Any],
+    existing_names: dict[str, dict[str, str]] | None = None,
 ) -> dict[str, dict[str, str]]:
+    existing_names = existing_names or {}
     result: dict[str, dict[str, str]] = {}
     total = len(slugs)
     for index, slug in enumerate(slugs, start=1):
         raw_path = raw_dir / f"{slug}.json"
         try:
             if not raw_path.exists():
-                result[slug] = merge_names(slug, {}, overrides, category)
+                extracted = existing_names.get(slug, {})
+                result[slug] = merge_names(slug, extracted, overrides, category)
             else:
                 raw = load_json(raw_path)
                 if category == "pokemon":
@@ -310,7 +366,8 @@ def build_entity_names(
                     result[slug] = merge_names(slug, extracted, overrides, category)
         except Exception as error:
             print(f"  warning: {category}/{slug}: {error}", file=sys.stderr)
-            result[slug] = merge_names(slug, {}, overrides, category)
+            extracted = existing_names.get(slug, {})
+            result[slug] = merge_names(slug, extracted, overrides, category)
         if index % 50 == 0 or index == total:
             print(f"  {category}: {index}/{total}")
     return result
@@ -359,6 +416,11 @@ def main() -> None:
             raise FileNotFoundError("Run scripts/build_champions.py before build_i18n.py")
         slug_sets = load_champions_slugs()
         print("Building Champions Reg M-B i18n only...")
+        if not RAW.exists() or not any(RAW.iterdir()):
+            print(
+                "  warning: data/raw/ is empty; reusing checked-in locale files where API cache is missing",
+                file=sys.stderr,
+            )
     else:
         slug_sets = {
             "pokemon": [entry["name"] for entry in load_json(ROOT / "data" / "pokemon.json")],
@@ -370,13 +432,18 @@ def main() -> None:
         }
         print("Building full i18n name maps...")
 
+    existing_by_category = {
+        category: load_existing_names(category)
+        for category in ("pokemon", "moves", "abilities", "items", "types", "natures")
+    }
+
     all_entities = {
-        "pokemon": build_entity_names(slug_sets["pokemon"], RAW / "pokemon", "pokemon", overrides),
-        "moves": build_entity_names(slug_sets["moves"], RAW / "move", "moves", overrides),
-        "abilities": build_entity_names(slug_sets["abilities"], RAW / "ability", "abilities", overrides),
-        "items": build_entity_names(slug_sets["items"], RAW / "item", "items", overrides),
-        "types": build_entity_names(slug_sets["types"], RAW / "type", "types", overrides),
-        "natures": build_entity_names(slug_sets["natures"], RAW / "nature", "natures", overrides),
+        "pokemon": build_entity_names(slug_sets["pokemon"], RAW / "pokemon", "pokemon", overrides, existing_by_category["pokemon"]),
+        "moves": build_entity_names(slug_sets["moves"], RAW / "move", "moves", overrides, existing_by_category["moves"]),
+        "abilities": build_entity_names(slug_sets["abilities"], RAW / "ability", "abilities", overrides, existing_by_category["abilities"]),
+        "items": build_entity_names(slug_sets["items"], RAW / "item", "items", overrides, existing_by_category["items"]),
+        "types": build_entity_names(slug_sets["types"], RAW / "type", "types", overrides, existing_by_category["types"]),
+        "natures": build_entity_names(slug_sets["natures"], RAW / "nature", "natures", overrides, existing_by_category["natures"]),
     }
 
     output_roots = [CHAMPIONS / "i18n"] if champions_only else [I18N, CHAMPIONS / "i18n"]

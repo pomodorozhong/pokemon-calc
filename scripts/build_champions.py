@@ -164,7 +164,7 @@ def main() -> None:
             "sprites_types": "assets/sprites/types/"
         },
         "i18n": {
-            "locales": ["en", "zh-Hans", "ja"],
+            "locales": ["en", "zh-Hans", "zh-Hant", "ja"],
             "config": "data/i18n/config.json",
             "catalog": "data/champions/reg-mb/i18n/catalog.json"
         },
