@@ -2,6 +2,36 @@
 
 A Pokemon calculator designed for mid-battle decisions.
 
+## Web app (GitHub Pages)
+
+The UI lives in [`web/`](web/) and is built for static hosting on GitHub Pages.
+
+**Stack:** Vite + React + TypeScript + Tailwind CSS + Zustand
+
+| Why this stack | Detail |
+|----------------|--------|
+| GitHub Pages fit | Pure static `dist/` output, no server required |
+| Fast iteration | Vite HMR and small bundle (~205 KB JS) |
+| Interactive UI | React components for team slots, picker modal, chips |
+| Simple deploy | GitHub Actions builds with `base: /pokemon-calc/` |
+
+### Run locally
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+### Build for GitHub Pages
+
+```bash
+cd web
+npm run build:pages
+```
+
+Push to `main` and the [Deploy to GitHub Pages](.github/workflows/deploy-pages.yml) workflow publishes `web/dist`.
+
 ## Data (Regulation M-B · Pokemon Champions)
 
 Battle data and sprites for the current **Pokemon Champions Regulation Set M-B** format are included — no app code yet.

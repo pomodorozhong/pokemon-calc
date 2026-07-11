@@ -8,3 +8,8 @@ assets/download.log
 # Python
 __pycache__/
 *.pyc
+
+# Web app
+web/node_modules/
+web/dist/
+web/public/
