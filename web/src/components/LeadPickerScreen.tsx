@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Pokemon, TypeChart } from '@/types/pokemon'
 import {
   loadPokemon,
@@ -19,6 +19,7 @@ export function LeadPickerScreen() {
   const locale = useTeamStore((s) => s.locale)
   const setLocale = useTeamStore((s) => s.setLocale)
   const resetTeams = useTeamStore((s) => s.resetTeams)
+  const hydrateOurTeam = useTeamStore((s) => s.hydrateOurTeam)
 
   const [pokemon, setPokemon] = useState<Pokemon[]>([])
   const [typeChart, setTypeChart] = useState<TypeChart | null>(null)
@@ -27,6 +28,7 @@ export function LeadPickerScreen() {
   const [typeNames, setTypeNames] = useState<Record<string, string> | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const hasHydratedTeam = useRef(false)
 
   useEffect(() => {
     let cancelled = false
@@ -44,6 +46,10 @@ export function LeadPickerScreen() {
         ])
         if (cancelled) return
         setPokemon(mons)
+        if (!hasHydratedTeam.current) {
+          hydrateOurTeam(mons)
+          hasHydratedTeam.current = true
+        }
         setTypeChart(chart)
         setUi(uiStrings)
         setPokemonNames(names)
