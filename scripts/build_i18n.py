@@ -328,19 +328,35 @@ def pokemon_display_names(slug: str, raw: dict[str, Any], overrides: dict[str, A
     return merge_names(slug, names, overrides, "pokemon")
 
 
+def load_existing_names(category: str) -> dict[str, dict[str, str]]:
+    """Reuse checked-in locale files when PokeAPI raw cache is unavailable."""
+    existing: dict[str, dict[str, str]] = {}
+    file_name = f"{category}.json"
+    for locale in LOCALES:
+        path = CHAMPIONS / "i18n" / locale / file_name
+        if not path.exists():
+            continue
+        for slug, name in load_json(path).items():
+            existing.setdefault(slug, {})[locale] = name
+    return existing
+
+
 def build_entity_names(
     slugs: list[str],
     raw_dir: Path,
     category: str,
     overrides: dict[str, Any],
+    existing_names: dict[str, dict[str, str]] | None = None,
 ) -> dict[str, dict[str, str]]:
+    existing_names = existing_names or {}
     result: dict[str, dict[str, str]] = {}
     total = len(slugs)
     for index, slug in enumerate(slugs, start=1):
         raw_path = raw_dir / f"{slug}.json"
         try:
             if not raw_path.exists():
-                result[slug] = merge_names(slug, {}, overrides, category)
+                extracted = existing_names.get(slug, {})
+                result[slug] = merge_names(slug, extracted, overrides, category)
             else:
                 raw = load_json(raw_path)
                 if category == "pokemon":
@@ -350,7 +366,8 @@ def build_entity_names(
                     result[slug] = merge_names(slug, extracted, overrides, category)
         except Exception as error:
             print(f"  warning: {category}/{slug}: {error}", file=sys.stderr)
-            result[slug] = merge_names(slug, {}, overrides, category)
+            extracted = existing_names.get(slug, {})
+            result[slug] = merge_names(slug, extracted, overrides, category)
         if index % 50 == 0 or index == total:
             print(f"  {category}: {index}/{total}")
     return result
@@ -399,6 +416,11 @@ def main() -> None:
             raise FileNotFoundError("Run scripts/build_champions.py before build_i18n.py")
         slug_sets = load_champions_slugs()
         print("Building Champions Reg M-B i18n only...")
+        if not RAW.exists() or not any(RAW.iterdir()):
+            print(
+                "  warning: data/raw/ is empty; reusing checked-in locale files where API cache is missing",
+                file=sys.stderr,
+            )
     else:
         slug_sets = {
             "pokemon": [entry["name"] for entry in load_json(ROOT / "data" / "pokemon.json")],
@@ -410,13 +432,18 @@ def main() -> None:
         }
         print("Building full i18n name maps...")
 
+    existing_by_category = {
+        category: load_existing_names(category)
+        for category in ("pokemon", "moves", "abilities", "items", "types", "natures")
+    }
+
     all_entities = {
-        "pokemon": build_entity_names(slug_sets["pokemon"], RAW / "pokemon", "pokemon", overrides),
-        "moves": build_entity_names(slug_sets["moves"], RAW / "move", "moves", overrides),
-        "abilities": build_entity_names(slug_sets["abilities"], RAW / "ability", "abilities", overrides),
-        "items": build_entity_names(slug_sets["items"], RAW / "item", "items", overrides),
-        "types": build_entity_names(slug_sets["types"], RAW / "type", "types", overrides),
-        "natures": build_entity_names(slug_sets["natures"], RAW / "nature", "natures", overrides),
+        "pokemon": build_entity_names(slug_sets["pokemon"], RAW / "pokemon", "pokemon", overrides, existing_by_category["pokemon"]),
+        "moves": build_entity_names(slug_sets["moves"], RAW / "move", "moves", overrides, existing_by_category["moves"]),
+        "abilities": build_entity_names(slug_sets["abilities"], RAW / "ability", "abilities", overrides, existing_by_category["abilities"]),
+        "items": build_entity_names(slug_sets["items"], RAW / "item", "items", overrides, existing_by_category["items"]),
+        "types": build_entity_names(slug_sets["types"], RAW / "type", "types", overrides, existing_by_category["types"]),
+        "natures": build_entity_names(slug_sets["natures"], RAW / "nature", "natures", overrides, existing_by_category["natures"]),
     }
 
     output_roots = [CHAMPIONS / "i18n"] if champions_only else [I18N, CHAMPIONS / "i18n"]
