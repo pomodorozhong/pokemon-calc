@@ -1,0 +1,1482 @@
+[
+  {
+    "id": 713,
+    "name": "abomasite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Abomasnow to Mega Evolve into Mega Abomasnow.",
+    "short_effect": "Held: Allows Abomasnow to Mega Evolve into Mega Abomasnow."
+  },
+  {
+    "id": 716,
+    "name": "absolite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Absol to Mega Evolve into Mega Absol.",
+    "short_effect": "Held: Allows Absol to Mega Evolve into Mega Absol."
+  },
+  {
+    "id": 711,
+    "name": "aerodactylite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Aerodactyl to Mega Evolve into Mega Aerodactyl.",
+    "short_effect": "Held: Allows Aerodactyl to Mega Evolve into Mega Aerodactyl."
+  },
+  {
+    "id": 706,
+    "name": "aggronite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Aggron to Mega Evolve into Mega Aggron.",
+    "short_effect": "Held: Allows Aggron to Mega Evolve into Mega Aggron."
+  },
+  {
+    "id": 718,
+    "name": "alakazite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Alakazam to Mega Evolve into Mega Alakazam.",
+    "short_effect": "Held: Allows Alakazam to Mega Evolve into Mega Alakazam."
+  },
+  {
+    "id": 796,
+    "name": "altarianite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Altaria to Mega Evolve into Mega Altaria.",
+    "short_effect": "Held: Allows Altaria to Mega Evolve into Mega Altaria."
+  },
+  {
+    "id": 697,
+    "name": "ampharosite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Ampharos to Mega Evolve into Mega Ampharos.",
+    "short_effect": "Held: Allows Ampharos to Mega Evolve into Mega Ampharos."
+  },
+  {
+    "id": 130,
+    "name": "aspear-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is frozen, it consumes this item to thaw itself.\n\nUsed on a party Pokémon\n:   Cures freezing.",
+    "short_effect": "Held: Consumed when frozen to cure frozen."
+  },
+  {
+    "id": 798,
+    "name": "audinite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Audino to Mega Evolve into Mega Audino.",
+    "short_effect": "Held: Allows Audino to Mega Evolve into Mega Audino."
+  },
+  {
+    "id": 176,
+    "name": "babiri-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Steel-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Steel-type attack to halve the damage."
+  },
+  {
+    "id": 707,
+    "name": "banettite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Banette to Mega Evolve into Mega Banette.",
+    "short_effect": "Held: Allows Banette to Mega Evolve into Mega Banette."
+  },
+  {
+    "id": 2255,
+    "name": "barbaracite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 811,
+    "name": "beedrillite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Beedrill to Mega Evolve into Mega Beedrill.",
+    "short_effect": "Held: Allows Beedrill to Mega Evolve into Mega Beedrill."
+  },
+  {
+    "id": 273,
+    "name": "big-root",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: HP restored from Absorb, Aqua Ring, Drain Punch, Dream Eater, Giga Drain, Ingrain, Leech Life, Leech Seed, and Mega Drain is increased by 30%.  Damage inflicted is not affected.",
+    "short_effect": "Held: Increases HP recovered from draining moves, Ingrain, and Aqua Ring by 3/10 (30%)."
+  },
+  {
+    "id": 218,
+    "name": "black-belt",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Fighting moves by 20%.",
+    "short_effect": "Held: Fighting-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 217,
+    "name": "black-glasses",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Dark moves by 20%.",
+    "short_effect": "Held: Dark-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 700,
+    "name": "blastoisinite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Blastoise to Mega Evolve into Mega Blastoise.",
+    "short_effect": "Held: Allows Blastoise to Mega Evolve into Mega Blastoise."
+  },
+  {
+    "id": 703,
+    "name": "blazikenite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Blaziken to Mega Evolve into Mega Blaziken.",
+    "short_effect": "Held: Allows Blaziken to Mega Evolve into Mega Blaziken."
+  },
+  {
+    "id": 190,
+    "name": "bright-powder",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   Moves targeting the holder have 0.9× chance to hit.",
+    "short_effect": "Held: Increases the holder’s evasion by 1/9 (11 1/9%)."
+  },
+  {
+    "id": 808,
+    "name": "cameruptite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Camerupt to Mega Evolve into Mega Camerupt.",
+    "short_effect": "Held: Allows Camerupt to Mega Evolve into Mega Camerupt."
+  },
+  {
+    "id": 2248,
+    "name": "chandelurite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 226,
+    "name": "charcoal",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Fire moves by 20%.",
+    "short_effect": "Held: Fire-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 699,
+    "name": "charizardite-x",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Charizard to Mega Evolve into Mega Charizard X.",
+    "short_effect": "Held: Allows Charizard to Mega Evolve into Mega Charizard X."
+  },
+  {
+    "id": 717,
+    "name": "charizardite-y",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Charizard to Mega Evolve into Mega Charizard Y.",
+    "short_effect": "Held: Allows Charizard to Mega Evolve into Mega Charizard Y."
+  },
+  {
+    "id": 172,
+    "name": "charti-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Rock-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Rock-type attack to halve the damage."
+  },
+  {
+    "id": 126,
+    "name": "cheri-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is paralyzed, it consumes this item to cure the paralysis.\n\nUsed on a party Pokémon\n:   Cures paralysis.",
+    "short_effect": "Held: Consumed when paralyzed to cure paralysis."
+  },
+  {
+    "id": 2249,
+    "name": "chesnaughtite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 127,
+    "name": "chesto-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is asleep, it consumes this item to wake up.\n\nUsed on a party Pokémon\n:   Cures sleep.",
+    "short_effect": "Held: Consumed when asleep to cure sleep."
+  },
+  {
+    "id": 177,
+    "name": "chilan-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take Normal-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a Normal-type attack to halve the damage."
+  },
+  {
+    "id": 2264,
+    "name": "chimechite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 264,
+    "name": "choice-scarf",
+    "category": "choice",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the holder’s Speed by 50%, but restricts it to the first move it uses until it leaves battle or loses this item.  If this item is swapped for another Choice item via Trick or Switcheroo, the holder’s restriction is still lifted, but it will again be restricted to the next move it uses.\n(Quirk: If the holder is switched in by U-Turn and it also knows U-Turn, U-Turn becomes its restricted move.)",
+    "short_effect": "Held: Increases Speed by 50%, but restricts the holder to only one move."
+  },
+  {
+    "id": 166,
+    "name": "chople-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Fighting-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Fighting-type attack to halve the damage."
+  },
+  {
+    "id": 2233,
+    "name": "clefablite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 169,
+    "name": "coba-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Flying-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Flying-type attack to halve the damage."
+  },
+  {
+    "id": 175,
+    "name": "colbur-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Dark-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Dark-type attack to halve the damage."
+  },
+  {
+    "id": 2271,
+    "name": "crabominite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 262,
+    "name": "damp-rock",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 60,
+    "holdable": true,
+    "effect": "Held: The holder’s Rain Dance will create rain lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_effect": "Held: Rain Dance by the holder lasts 8 rounds instead of 5."
+  },
+  {
+    "id": 2250,
+    "name": "delphoxite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2256,
+    "name": "dragalgite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 227,
+    "name": "dragon-fang",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 70,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Dragon moves by 20%.",
+    "short_effect": "Held: Dragon-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 2236,
+    "name": "dragoninite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2259,
+    "name": "drampanite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2247,
+    "name": "eelektrossite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2243,
+    "name": "emboarite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2244,
+    "name": "excadrite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 245,
+    "name": "expert-belt",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: When the holder hits with a super-effective move, its power is raised by 20%.",
+    "short_effect": "Held: Holder’s Super Effective moves do 20% extra damage."
+  },
+  {
+    "id": 2105,
+    "name": "fairy-feather",
+    "category": "held-items",
+    "cost": 750,
+    "fling_power": null,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2261,
+    "name": "falinksite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2238,
+    "name": "feraligite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2253,
+    "name": "floettite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 207,
+    "name": "focus-band",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: If the holder is attacked for regular damage that would faint it, this item has a 10% chance to prevent the holder’s HP from lowering below 1.",
+    "short_effect": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP."
+  },
+  {
+    "id": 252,
+    "name": "focus-sash",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: If the holder has full HP and is attacked for regular damage that would faint it, this item is consumed and prevents the holder’s HP from lowering below 1.  This effect works against multi-hit attacks, but does not work against the effects of Doom Desire or Future Sight.",
+    "short_effect": "Held: Holder survives any single-hit attack at 1 HP if at max HP, then the item is consumed."
+  },
+  {
+    "id": 2240,
+    "name": "froslassite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 797,
+    "name": "galladite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Gallade to Mega Evolve into Mega Gallade.",
+    "short_effect": "Held: Allows Gallade to Mega Evolve into Mega Gallade."
+  },
+  {
+    "id": 722,
+    "name": "garchompite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Garchomp to Mega Evolve into Mega Garchomp.",
+    "short_effect": "Held: Allows Garchomp to Mega Evolve into Mega Garchomp."
+  },
+  {
+    "id": 696,
+    "name": "gardevoirite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Gardevoir to Mega Evolve into Mega Gardevoir.",
+    "short_effect": "Held: Allows Gardevoir to Mega Evolve into Mega Gardevoir."
+  },
+  {
+    "id": 695,
+    "name": "gengarite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Gengar to Mega Evolve into Mega Gengar.",
+    "short_effect": "Held: Allows Gengar to Mega Evolve into Mega Gengar."
+  },
+  {
+    "id": 804,
+    "name": "glalitite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Glalie to Mega Evolve into Mega Glalie.",
+    "short_effect": "Held: Allows Glalie to Mega Evolve into Mega Glalie."
+  },
+  {
+    "id": 2277,
+    "name": "glimmoranite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2269,
+    "name": "golurkite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2251,
+    "name": "greninjite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 715,
+    "name": "gyaradosite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Gyarados to Mega Evolve into Mega Gyarados.",
+    "short_effect": "Held: Allows Gyarados to Mega Evolve into Mega Gyarados."
+  },
+  {
+    "id": 174,
+    "name": "haban-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Dragon-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Dragon-type attack to halve the damage."
+  },
+  {
+    "id": 215,
+    "name": "hard-stone",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 100,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Rock moves by 20%.",
+    "short_effect": "Held: Rock-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 2257,
+    "name": "hawluchanite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 261,
+    "name": "heat-rock",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 60,
+    "holdable": true,
+    "effect": "Held: The holder’s Sunny Day will create sunshine lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_effect": "Held: Sunny Day by the holder lasts 8 rounds instead of 5."
+  },
+  {
+    "id": 719,
+    "name": "heracronite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Heracross to Mega Evolve into Mega Heracross.",
+    "short_effect": "Held: Allows Heracross to Mega Evolve into Mega Heracross."
+  },
+  {
+    "id": 705,
+    "name": "houndoominite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Houndoom to Mega Evolve into Mega Houndoom.",
+    "short_effect": "Held: Allows Houndoom to Mega Evolve into Mega Houndoom."
+  },
+  {
+    "id": 259,
+    "name": "icy-rock",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 40,
+    "holdable": true,
+    "effect": "Held: The holder’s Hail will create a hailstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_effect": "Held: Hail by the holder lasts 8 rounds instead of 5."
+  },
+  {
+    "id": 255,
+    "name": "iron-ball",
+    "category": "bad-held-items",
+    "cost": 4000,
+    "fling_power": 130,
+    "holdable": true,
+    "effect": "Held: Decreases the holder’s Speed by 50%.  If the holder is Flying or has Levitate, it takes regular damage from Ground attacks and is suspectible to Spikes and Toxic Spikes.",
+    "short_effect": "Held: Holder’s Speed is halved. Negates all Ground-type immunities, and makes Flying-types take neutral damage from Ground-type moves. Arena Trap. Spikes, and Toxic Spikes affect the holder."
+  },
+  {
+    "id": 714,
+    "name": "kangaskhanite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Kangaskhan to Mega Evolve into Mega Kangaskhan.",
+    "short_effect": "Held: Allows Kangaskhan to Mega Evolve into Mega Kangaskhan."
+  },
+  {
+    "id": 173,
+    "name": "kasib-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Ghost-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Ghost-type attack to halve the damage."
+  },
+  {
+    "id": 167,
+    "name": "kebia-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Poison-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Poison-type attack to halve the damage."
+  },
+  {
+    "id": 198,
+    "name": "kings-rock",
+    "category": "held-items",
+    "cost": 5000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held in battle\n:   Holder’s damaging moves have a 10% chance to make their target flinch.  This chance applies independently to each hit of a multi-hit move.\n\n    This item’s chance is rolled independently of any other move effects;\ne.g., a move with a 30% chance to flinch normally will have a 37% total chance to flinch when used with this item, because 3% of the time, both effects activate.\n\nHeld by Poliwhirl or Slowbro\n:   Holder evolves into Politoed or Slowking, respectively, when traded.",
+    "short_effect": "Held: Damaging moves gain a 10% chance to make their target flinch. Traded on a Poliwhirl: Holder evolves into Politoed. Traded on a Slowpoke: Holder evolves into Slowking."
+  },
+  {
+    "id": 211,
+    "name": "leftovers",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Heals the holder by 1/16 its max HP at the end of each turn.",
+    "short_effect": "Held: Restores 1/16 (6.25%) holder’s max HP at the end of each turn."
+  },
+  {
+    "id": 131,
+    "name": "leppa-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is out of PP for one of its moves, it consumes this item to restore 10 of that move’s PP.\n\nUsed on a party Pokémon\n:   Restores 10 PP for a selected move.",
+    "short_effect": "Held: Consumed when a move runs out of PP to restore its PP by 10."
+  },
+  {
+    "id": 247,
+    "name": "life-orb",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Damage from the holder’s moves is increased by 30%.  On each turn the holder uses a damage-inflicting move, it takes 10% its max HP in damage.",
+    "short_effect": "Held: Holder’s moves inflict 30% extra damage, but cost 10% max HP."
+  },
+  {
+    "id": 213,
+    "name": "light-ball",
+    "category": "species-specific",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held by Pikachu: Doubles the holder’s initial Attack and Special Attack.",
+    "short_effect": "Doubles Pikachu’s Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle."
+  },
+  {
+    "id": 246,
+    "name": "light-clay",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: The holder’s Reflect and Light Screen will create effects lasting for eight turns rather than five.  As this item affects the move rather than the barrier itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_effect": "Held: Light Screen and Reflect used by the holder last 8 rounds instead of 5."
+  },
+  {
+    "id": 809,
+    "name": "lopunnite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Lopunny to Mega Evolve into Mega Lopunny.",
+    "short_effect": "Held: Allows Lopunny to Mega Evolve into Mega Lopunny."
+  },
+  {
+    "id": 712,
+    "name": "lucarionite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Lucario to Mega Evolve into Mega Lucario.",
+    "short_effect": "Held: Allows Lucario to Mega Evolve into Mega Lucario."
+  },
+  {
+    "id": 134,
+    "name": "lum-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is afflicted with a major status ailment, it consumes this item to cure the ailment.\n\nUsed on a party Pokémon\n:   Cures any major status ailment.",
+    "short_effect": "Held: Consumed to cure any status condition or confusion."
+  },
+  {
+    "id": 219,
+    "name": "magnet",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Electric moves by 20%.",
+    "short_effect": "Held: Electric-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 2254,
+    "name": "malamarite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 721,
+    "name": "manectite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Manectric to Mega Evolve into Mega Manectric.",
+    "short_effect": "Held: Allows Manectric to Mega Evolve into Mega Manectric."
+  },
+  {
+    "id": 720,
+    "name": "mawilite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Mawile to Mega Evolve into Mega Mawile.",
+    "short_effect": "Held: Allows Mawile to Mega Evolve into Mega Mawile."
+  },
+  {
+    "id": 704,
+    "name": "medichamite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Medicham to Mega Evolve into Mega Medicham.",
+    "short_effect": "Held: Allows Medicham to Mega Evolve into Mega Medicham."
+  },
+  {
+    "id": 2237,
+    "name": "meganiumite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 196,
+    "name": "mental-herb",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is attracted, it consumes this item to cure the attraction.",
+    "short_effect": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body."
+  },
+  {
+    "id": 2270,
+    "name": "meowsticite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 799,
+    "name": "metagrossite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Metagross to Mega Evolve into Mega Metagross.",
+    "short_effect": "Held: Allows Metagross to Mega Evolve into Mega Metagross."
+  },
+  {
+    "id": 210,
+    "name": "metal-coat",
+    "category": "type-enhancement",
+    "cost": 2000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Steel moves by 20%.\nHeld by Onix or Scyther: Evolves the holder into Steelix or Scizor when traded, respectively.",
+    "short_effect": "Held: Steel-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 254,
+    "name": "metronome",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Each time the holder uses the same move consecutively, its power is increased by another 10% of its original, to a maximum of 100%.",
+    "short_effect": "Held: Consectutive uses of the same attack have a cumulative damage boost of 10%. Maximum 100% boost."
+  },
+  {
+    "id": 216,
+    "name": "miracle-seed",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Grass moves by 20%.",
+    "short_effect": "Held: Grass-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 243,
+    "name": "muscle-band",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s physical moves by 10%.",
+    "short_effect": "Held: Boosts the damage of physical moves used by the holder by 10%."
+  },
+  {
+    "id": 220,
+    "name": "mystic-water",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Water moves by 20%.",
+    "short_effect": "Held: Water-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 223,
+    "name": "never-melt-ice",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Ice moves by 20%.",
+    "short_effect": "Held: Ice-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 161,
+    "name": "occa-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Fire-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Fire-type attack to halve the damage."
+  },
+  {
+    "id": 132,
+    "name": "oran-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder has 1/2 its max HP remaining or less, it consumes this item to restore 10 HP.\n\nUsed on a party Pokémon\n:   Restores 10 HP.",
+    "short_effect": "Held: Consumed at 1/2 max HP to recover 10 HP."
+  },
+  {
+    "id": 162,
+    "name": "passho-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Water-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Water-type attack to halve the damage."
+  },
+  {
+    "id": 170,
+    "name": "payapa-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Psychic-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Psychic-type attack to halve the damage."
+  },
+  {
+    "id": 128,
+    "name": "pecha-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is poisoned, it consumes this item to cure the poison.\n\nUsed on a party Pokémon\n:   Cures poison.",
+    "short_effect": "Held: Consumed when poisoned to cure poison."
+  },
+  {
+    "id": 133,
+    "name": "persim-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is confused, it consumes this item to cure the confusion.\n\nUsed on a party Pokémon\n:   Cures confusion.",
+    "short_effect": "Held: Consumed when confused to cure confusion."
+  },
+  {
+    "id": 803,
+    "name": "pidgeotite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Pidgeot to Mega Evolve into Mega Pidgeot.",
+    "short_effect": "Held: Allows Pidgeot to Mega Evolve into Mega Pidgeot."
+  },
+  {
+    "id": 710,
+    "name": "pinsirite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Pinsir to Mega Evolve into Mega Pinsir.",
+    "short_effect": "Held: Allows Pinsir to Mega Evolve into Mega Pinsir."
+  },
+  {
+    "id": 222,
+    "name": "poison-barb",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 70,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Poison moves by 20%.",
+    "short_effect": "Held: Poison-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 2252,
+    "name": "pyroarite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 194,
+    "name": "quick-claw",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 80,
+    "holdable": true,
+    "effect": "Held in battle\n:   Whenever the holder attempts to use a move, it has a 3/16 chance to act first among moves with the same priority.  If multiple Pokémon have this effect at the same time, Speed is the tie-breaker as normal, but the effect of Trick Room is ignored.",
+    "short_effect": "Held: Holder has a 3/16 (18.75%) chance to move first."
+  },
+  {
+    "id": 2262,
+    "name": "raichunite-x",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2263,
+    "name": "raichunite-y",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 129,
+    "name": "rawst-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder is burned, it consumes this item to cure the burn.\n\nUsed on a party Pokémon\n:   Cures a burn.",
+    "short_effect": "Held: Consumed when burned to cure a burn."
+  },
+  {
+    "id": 164,
+    "name": "rindo-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Grass-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Grass-type attack to halve the damage."
+  },
+  {
+    "id": 723,
+    "name": "roseli-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": false,
+    "effect": "Held: Consumed when struck by a super-effective Fairy-type attack to halve the damage.",
+    "short_effect": "Held: Consumed when struck by a super-effective Fairy-type attack to halve the damage."
+  },
+  {
+    "id": 795,
+    "name": "sablenite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Sableye to Mega Evolve into Mega Sableye.",
+    "short_effect": "Held: Allows Sableye to Mega Evolve into Mega Sableye."
+  },
+  {
+    "id": 794,
+    "name": "sceptilite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Sceptile to Mega Evolve into Mega Sceptile.",
+    "short_effect": "Held: Allows Sceptile to Mega Evolve into Mega Sceptile."
+  },
+  {
+    "id": 709,
+    "name": "scizorite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Scizor to Mega Evolve into Mega Scizor.",
+    "short_effect": "Held: Allows Scizor to Mega Evolve into Mega Scizor."
+  },
+  {
+    "id": 2245,
+    "name": "scolipite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 209,
+    "name": "scope-lens",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Raises the holder’s critical hit counter by 1.",
+    "short_effect": "Held: Raises the holder’s critical hit ratio by one stage."
+  },
+  {
+    "id": 2274,
+    "name": "scovillainite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2246,
+    "name": "scraftinite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 221,
+    "name": "sharp-beak",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 50,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Flying moves by 20%.",
+    "short_effect": "Held: Flying-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 800,
+    "name": "sharpedonite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Sharpedo to Mega Evolve into Mega Sharpedo.",
+    "short_effect": "Held: Allows Sharpedo to Mega Evolve into Mega Sharpedo."
+  },
+  {
+    "id": 272,
+    "name": "shed-shell",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: The holder is unaffected by any moves or abilities that would prevent it from actively leaving battle.",
+    "short_effect": "Held: Holder can bypass all trapping effects and switch out. Multi-turn moves still cannot be switched out of."
+  },
+  {
+    "id": 230,
+    "name": "shell-bell",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Heals the holder by 1/8 of any damage it inflicts.",
+    "short_effect": "Held: Holder receives 1/8 of the damage it deals when attacking."
+  },
+  {
+    "id": 168,
+    "name": "shuca-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Ground-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Ground-type attack to halve the damage."
+  },
+  {
+    "id": 228,
+    "name": "silk-scarf",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Normal moves by 20%.",
+    "short_effect": "Held: Normal-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 199,
+    "name": "silver-powder",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   Holder’s Bug-type moves have 1.2× their power.\n",
+    "short_effect": "Held: Bug-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 135,
+    "name": "sitrus-berry",
+    "category": "medicine",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder has 1/2 its max HP remaining or less, it consumes this item to restore 1/4 its max HP.\n\nUsed on a party Pokémon\n:   Restores 1/4 the Pokémon’s max HP.",
+    "short_effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+  },
+  {
+    "id": 2239,
+    "name": "skarmorite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 801,
+    "name": "slowbronite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Slowbro to Mega Evolve into Mega Slowbro.",
+    "short_effect": "Held: Allows Slowbro to Mega Evolve into Mega Slowbro."
+  },
+  {
+    "id": 260,
+    "name": "smooth-rock",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: The holder’s Sandstorm will create a sandstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_effect": "Held: Sandstorm by the holder lasts 8 rounds instead of 5."
+  },
+  {
+    "id": 214,
+    "name": "soft-sand",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Ground moves by 20%.",
+    "short_effect": "Held: Ground-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 224,
+    "name": "spell-tag",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Ghost moves by 20%.",
+    "short_effect": "Held: Ghost-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 2266,
+    "name": "staraptite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 2235,
+    "name": "starminite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 802,
+    "name": "steelixite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Steelix to Mega Evolve into Mega Steelix.",
+    "short_effect": "Held: Allows Steelix to Mega Evolve into Mega Steelix."
+  },
+  {
+    "id": 793,
+    "name": "swampertite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Swampert to Mega Evolve into Mega Swampert.",
+    "short_effect": "Held: Allows Swampert to Mega Evolve into Mega Swampert."
+  },
+  {
+    "id": 171,
+    "name": "tanga-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Bug-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Bug-type attack to halve the damage."
+  },
+  {
+    "id": 225,
+    "name": "twisted-spoon",
+    "category": "type-enhancement",
+    "cost": 1000,
+    "fling_power": 30,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s Psychic moves by 20%.",
+    "short_effect": "Held: Psychic-Type moves from holder do 20% more damage."
+  },
+  {
+    "id": 708,
+    "name": "tyranitarite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Tyranitar to Mega Evolve into Mega Tyranitar.",
+    "short_effect": "Held: Allows Tyranitar to Mega Evolve into Mega Tyranitar."
+  },
+  {
+    "id": 698,
+    "name": "venusaurite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": "Held: Allows Venusaur to Mega Evolve into Mega Venusaur.",
+    "short_effect": "Held: Allows Venusaur to Mega Evolve into Mega Venusaur."
+  },
+  {
+    "id": 2234,
+    "name": "victreebelite",
+    "category": "mega-stones",
+    "cost": 0,
+    "fling_power": 80,
+    "holdable": false,
+    "effect": null,
+    "short_effect": null
+  },
+  {
+    "id": 163,
+    "name": "wacan-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Electric-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Electric-type attack to halve the damage."
+  },
+  {
+    "id": 191,
+    "name": "white-herb",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   At the end of each turn, if any of the holder’s stats have a negative stat modifier, the holder consumes this item to remove the modifiers from those stats.",
+    "short_effect": "Held: Resets all lowered stats to normal at end of turn. Consumed after use."
+  },
+  {
+    "id": 242,
+    "name": "wide-lens",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the accuracy of any move the holder uses by 10% (multiplied; i.e. 70% accuracy is increased to 77%).",
+    "short_effect": "Held: Provides a 1/10 (10%) boost in accuracy to the holder."
+  },
+  {
+    "id": 244,
+    "name": "wise-glasses",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Increases the power of the holder’s special moves by 10%.",
+    "short_effect": "Held: Boosts the damage of special moves used by the holder by 1/10 (10%)."
+  },
+  {
+    "id": 165,
+    "name": "yache-berry",
+    "category": "type-protection",
+    "cost": 80,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held in battle\n:   When the holder would take super-effective Ice-type damage, it consumes this item to halve the amount of damage taken.",
+    "short_effect": "Held: Consumed when struck by a super-effective Ice-type attack to halve the damage."
+  },
+  {
+    "id": 253,
+    "name": "zoom-lens",
+    "category": "held-items",
+    "cost": 4000,
+    "fling_power": 10,
+    "holdable": true,
+    "effect": "Held: Raises the holder’s Accuracy by 20% when it goes last.\nIngame description is incorrect.",
+    "short_effect": "Held: Provides a 1/5 (20%) boost in accuracy if the holder moves after the target."
+  }
+]

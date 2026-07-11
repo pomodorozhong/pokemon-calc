@@ -1,0 +1,9316 @@
+[
+  {
+    "id": 460,
+    "name": "abomasnow",
+    "height": 22,
+    "weight": 1355,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 75,
+      "special-attack": 92,
+      "special-defense": 85,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/460.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 359,
+    "name": "absol",
+    "height": 12,
+    "weight": 470,
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 60,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/359.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 681,
+    "name": "aegislash-shield",
+    "height": 17,
+    "weight": 530,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "stance-change",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 140,
+      "special-attack": 50,
+      "special-defense": 140,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/681.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10026,
+    "name": "aegislash-blade",
+    "height": 17,
+    "weight": 530,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "stance-change",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 140,
+      "defense": 50,
+      "special-attack": 140,
+      "special-defense": 50,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10026.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "height": 18,
+    "weight": 590,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 130
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/142.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 306,
+    "name": "aggron",
+    "height": 21,
+    "weight": 3600,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "heavy-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 180,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/306.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "height": 15,
+    "weight": 480,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 135,
+      "special-defense": 95,
+      "speed": 120
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/65.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 869,
+    "name": "alcremie",
+    "height": 3,
+    "weight": 5,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 121,
+      "speed": 64
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/869.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 334,
+    "name": "altaria",
+    "height": 11,
+    "weight": 206,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "special-attack": 70,
+      "special-defense": 105,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/334.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 181,
+    "name": "ampharos",
+    "height": 14,
+    "weight": 615,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "plus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 115,
+      "special-defense": 90,
+      "speed": 55
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/181.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 979,
+    "name": "annihilape",
+    "height": 12,
+    "weight": 560,
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 115,
+      "defense": 80,
+      "special-attack": 50,
+      "special-defense": 90,
+      "speed": 90
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/979.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 842,
+    "name": "appletun",
+    "height": 4,
+    "weight": 130,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "ripen",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/842.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 752,
+    "name": "araquanid",
+    "height": 18,
+    "weight": 820,
+    "types": [
+      "water",
+      "bug"
+    ],
+    "abilities": [
+      {
+        "name": "water-bubble",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 70,
+      "defense": 92,
+      "special-attack": 50,
+      "special-defense": 132,
+      "speed": 42
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/752.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "height": 35,
+    "weight": 650,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special-attack": 65,
+      "special-defense": 79,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/24.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "height": 19,
+    "weight": 1550,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/59.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 1018,
+    "name": "archaludon",
+    "height": 20,
+    "weight": 600,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "stamina",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stalwart",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "special-attack": 125,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/1018.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 168,
+    "name": "ariados",
+    "height": 11,
+    "weight": 335,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 40
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/168.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 936,
+    "name": "armarouge",
+    "height": 15,
+    "weight": 850,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 100,
+      "special-attack": 125,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/936.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 683,
+    "name": "aromatisse",
+    "height": 8,
+    "weight": 155,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 101,
+      "attack": 72,
+      "defense": 72,
+      "special-attack": 99,
+      "special-defense": 89,
+      "speed": 29
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/683.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 531,
+    "name": "audino",
+    "height": 11,
+    "weight": 310,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "klutz",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 60,
+      "defense": 86,
+      "special-attack": 60,
+      "special-defense": 86,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/531.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 699,
+    "name": "aurorus",
+    "height": 27,
+    "weight": 2250,
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "refrigerate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-warning",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 123,
+      "attack": 77,
+      "defense": 72,
+      "special-attack": 99,
+      "special-defense": 92,
+      "speed": 58
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/699.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 713,
+    "name": "avalugg",
+    "height": 20,
+    "weight": 5050,
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 117,
+      "defense": 184,
+      "special-attack": 44,
+      "special-defense": 46,
+      "speed": 28
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/713.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 184,
+    "name": "azumarill",
+    "height": 8,
+    "weight": 285,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "huge-power",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 50,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/184.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 354,
+    "name": "banette",
+    "height": 11,
+    "weight": 125,
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 115,
+      "defense": 65,
+      "special-attack": 83,
+      "special-defense": 63,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/354.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 689,
+    "name": "barbaracle",
+    "height": 13,
+    "weight": 960,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 105,
+      "defense": 115,
+      "special-attack": 54,
+      "special-defense": 86,
+      "speed": 68
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/689.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 902,
+    "name": "basculegion-male",
+    "height": 30,
+    "weight": 1100,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 112,
+      "defense": 65,
+      "special-attack": 80,
+      "special-defense": 75,
+      "speed": 78
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/902.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10248,
+    "name": "basculegion-female",
+    "height": 30,
+    "weight": 1100,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 92,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 75,
+      "speed": 78
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10248.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 411,
+    "name": "bastiodon",
+    "height": 13,
+    "weight": 1495,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 52,
+      "defense": 168,
+      "special-attack": 47,
+      "special-defense": 138,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/411.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 614,
+    "name": "beartic",
+    "height": 26,
+    "weight": 2600,
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "slush-rush",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/614.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "height": 10,
+    "weight": 295,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special-attack": 45,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/15.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 939,
+    "name": "bellibolt",
+    "height": 12,
+    "weight": 1130,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "electromorphosis",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 64,
+      "defense": 91,
+      "special-attack": 103,
+      "special-defense": 83,
+      "speed": 45
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/939.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "height": 16,
+    "weight": 855,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special-attack": 85,
+      "special-defense": 105,
+      "speed": 78
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/9.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 257,
+    "name": "blaziken",
+    "height": 19,
+    "weight": 520,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "special-attack": 110,
+      "special-defense": 70,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/257.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 323,
+    "name": "camerupt",
+    "height": 19,
+    "weight": 2200,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "magma-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solid-rock",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 105,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/323.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 351,
+    "name": "castform",
+    "height": 3,
+    "weight": 8,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "forecast",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/351.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 937,
+    "name": "ceruledge",
+    "height": 16,
+    "weight": 620,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/937.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 609,
+    "name": "chandelure",
+    "height": 10,
+    "weight": 343,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 90,
+      "special-attack": 145,
+      "special-defense": 90,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/609.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "height": 17,
+    "weight": 905,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/6.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 652,
+    "name": "chesnaught",
+    "height": 16,
+    "weight": 900,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "bulletproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 107,
+      "defense": 122,
+      "special-attack": 74,
+      "special-defense": 75,
+      "speed": 64
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/652.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 358,
+    "name": "chimecho",
+    "height": 6,
+    "weight": 10,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/358.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 693,
+    "name": "clawitzer",
+    "height": 13,
+    "weight": 353,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "mega-launcher",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 73,
+      "defense": 88,
+      "special-attack": 120,
+      "special-defense": 89,
+      "speed": 59
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/693.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "height": 13,
+    "weight": 400,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/36.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 563,
+    "name": "cofagrigus",
+    "height": 17,
+    "weight": 765,
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "mummy",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 50,
+      "defense": 145,
+      "special-attack": 95,
+      "special-defense": 105,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/563.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 534,
+    "name": "conkeldurr",
+    "height": 14,
+    "weight": 870,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 95,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/534.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 823,
+    "name": "corviknight",
+    "height": 22,
+    "weight": 750,
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mirror-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "special-attack": 53,
+      "special-defense": 85,
+      "speed": 67
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/823.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 740,
+    "name": "crabominable",
+    "height": 17,
+    "weight": 1800,
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 132,
+      "defense": 77,
+      "special-attack": 62,
+      "special-defense": 67,
+      "speed": 43
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/740.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 724,
+    "name": "decidueye",
+    "height": 16,
+    "weight": 366,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "long-reach",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 107,
+      "defense": 75,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/724.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 702,
+    "name": "dedenne",
+    "height": 2,
+    "weight": 22,
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "plus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 67,
+      "attack": 58,
+      "defense": 57,
+      "special-attack": 81,
+      "special-defense": 67,
+      "speed": 101
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/702.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 655,
+    "name": "delphox",
+    "height": 15,
+    "weight": 390,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "special-attack": 114,
+      "special-defense": 100,
+      "speed": 104
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/655.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 660,
+    "name": "diggersby",
+    "height": 10,
+    "weight": 424,
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "huge-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 56,
+      "defense": 77,
+      "special-attack": 50,
+      "special-defense": 77,
+      "speed": 78
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/660.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "height": 3,
+    "weight": 40,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "imposter",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special-attack": 48,
+      "special-defense": 48,
+      "speed": 48
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/132.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 691,
+    "name": "dragalge",
+    "height": 18,
+    "weight": 815,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 90,
+      "special-attack": 97,
+      "special-defense": 123,
+      "speed": 44
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/691.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 887,
+    "name": "dragapult",
+    "height": 30,
+    "weight": 500,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "special-attack": 100,
+      "special-defense": 75,
+      "speed": 142
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/887.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "height": 22,
+    "weight": 2100,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "multiscale",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/149.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 780,
+    "name": "drampa",
+    "height": 30,
+    "weight": 1850,
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "berserk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 60,
+      "defense": 85,
+      "special-attack": 135,
+      "special-defense": 91,
+      "speed": 36
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/780.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 604,
+    "name": "eelektross",
+    "height": 21,
+    "weight": 805,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "special-attack": 105,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/604.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 500,
+    "name": "emboar",
+    "height": 16,
+    "weight": 1500,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 123,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/500.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 587,
+    "name": "emolga",
+    "height": 4,
+    "weight": 50,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "motor-drive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 60,
+      "speed": 103
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/587.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 395,
+    "name": "empoleon",
+    "height": 17,
+    "weight": 845,
+    "types": [
+      "water",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 84,
+      "attack": 86,
+      "defense": 88,
+      "special-attack": 111,
+      "special-defense": 101,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/395.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 956,
+    "name": "espathra",
+    "height": 19,
+    "weight": 900,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "opportunist",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 101,
+      "special-defense": 60,
+      "speed": 105
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/956.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 196,
+    "name": "espeon",
+    "height": 9,
+    "weight": 265,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-bounce",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 95,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/196.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 530,
+    "name": "excadrill",
+    "height": 7,
+    "weight": 404,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "sand-rush",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 135,
+      "defense": 60,
+      "special-attack": 50,
+      "special-defense": 65,
+      "speed": 88
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/530.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 870,
+    "name": "falinks",
+    "height": 30,
+    "weight": 620,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 70,
+      "special-defense": 60,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/870.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 981,
+    "name": "farigiraf",
+    "height": 32,
+    "weight": 1600,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "cud-chew",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "armor-tail",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": 90,
+      "defense": 70,
+      "special-attack": 110,
+      "special-defense": 70,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/981.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 160,
+    "name": "feraligatr",
+    "height": 23,
+    "weight": 888,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 100,
+      "special-attack": 79,
+      "special-defense": 83,
+      "speed": 78
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/160.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 841,
+    "name": "flapple",
+    "height": 3,
+    "weight": 10,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "ripen",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 60,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/841.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "height": 9,
+    "weight": 250,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/136.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 670,
+    "name": "floette",
+    "height": 2,
+    "weight": 9,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 45,
+      "defense": 47,
+      "special-attack": 75,
+      "special-defense": 98,
+      "speed": 52
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/670.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 671,
+    "name": "florges",
+    "height": 11,
+    "weight": 100,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 65,
+      "defense": 68,
+      "special-attack": 112,
+      "special-defense": 154,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/671.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 205,
+    "name": "forretress",
+    "height": 12,
+    "weight": 1258,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 40
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/205.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 478,
+    "name": "froslass",
+    "height": 13,
+    "weight": 266,
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/478.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 676,
+    "name": "furfrou",
+    "height": 12,
+    "weight": 280,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "fur-coat",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 90,
+      "speed": 102
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/676.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 475,
+    "name": "gallade",
+    "height": 16,
+    "weight": 520,
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "steadfast",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sharpness",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 125,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/475.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 569,
+    "name": "garbodor",
+    "height": 19,
+    "weight": 1073,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 95,
+      "defense": 82,
+      "special-attack": 60,
+      "special-defense": 82,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/569.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 445,
+    "name": "garchomp",
+    "height": 19,
+    "weight": 950,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rough-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "special-attack": 80,
+      "special-defense": 85,
+      "speed": 102
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/445.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 282,
+    "name": "gardevoir",
+    "height": 16,
+    "weight": 484,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "trace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 125,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/282.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 934,
+    "name": "garganacl",
+    "height": 23,
+    "weight": 2400,
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "purifying-salt",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "clear-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 130,
+      "special-attack": 45,
+      "special-defense": 90,
+      "speed": 35
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/934.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "height": 15,
+    "weight": 405,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 75,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/94.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 1000,
+    "name": "gholdengo",
+    "height": 12,
+    "weight": 300,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "good-as-gold",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "special-attack": 133,
+      "special-defense": 91,
+      "speed": 84
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/1000.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 471,
+    "name": "glaceon",
+    "height": 8,
+    "weight": 259,
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "special-attack": 130,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/471.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 362,
+    "name": "glalie",
+    "height": 15,
+    "weight": 2565,
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/362.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 970,
+    "name": "glimmora",
+    "height": 15,
+    "weight": 450,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "toxic-debris",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "corrosion",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 55,
+      "defense": 90,
+      "special-attack": 130,
+      "special-defense": 81,
+      "speed": 86
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/970.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 472,
+    "name": "gliscor",
+    "height": 20,
+    "weight": 425,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "poison-heal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 125,
+      "special-attack": 45,
+      "special-defense": 75,
+      "speed": 95
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/472.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 623,
+    "name": "golurk",
+    "height": 28,
+    "weight": 3300,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 89,
+      "attack": 124,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 55
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/623.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 706,
+    "name": "goodra",
+    "height": 20,
+    "weight": 1505,
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gooey",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 110,
+      "special-defense": 150,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/706.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 711,
+    "name": "gourgeist-average",
+    "height": 9,
+    "weight": 125,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 122,
+      "special-attack": 58,
+      "special-defense": 75,
+      "speed": 84
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/711.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 658,
+    "name": "greninja",
+    "height": 15,
+    "weight": 400,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "protean",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "special-attack": 103,
+      "special-defense": 71,
+      "speed": 122
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/658.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 861,
+    "name": "grimmsnarl",
+    "height": 15,
+    "weight": 610,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "special-attack": 95,
+      "special-defense": 75,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/861.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "height": 65,
+    "weight": 2350,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 81
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/130.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 858,
+    "name": "hatterene",
+    "height": 21,
+    "weight": 51,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-bounce",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "special-attack": 136,
+      "special-defense": 103,
+      "speed": 29
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/858.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 701,
+    "name": "hawlucha",
+    "height": 8,
+    "weight": 215,
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 92,
+      "defense": 75,
+      "special-attack": 74,
+      "special-defense": 63,
+      "speed": 118
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/701.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 695,
+    "name": "heliolisk",
+    "height": 10,
+    "weight": 210,
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "dry-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 62,
+      "attack": 55,
+      "defense": 52,
+      "special-attack": 109,
+      "special-defense": 94,
+      "speed": 109
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/695.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 214,
+    "name": "heracross",
+    "height": 15,
+    "weight": 540,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "special-attack": 40,
+      "special-defense": 95,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/214.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 450,
+    "name": "hippowdon",
+    "height": 20,
+    "weight": 3000,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "special-attack": 68,
+      "special-defense": 72,
+      "speed": 47
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/450.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 229,
+    "name": "houndoom",
+    "height": 14,
+    "weight": 350,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "special-attack": 110,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/229.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 972,
+    "name": "houndstone",
+    "height": 20,
+    "weight": 150,
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "sand-rush",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "fluffy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 101,
+      "defense": 100,
+      "special-attack": 50,
+      "special-defense": 97,
+      "speed": 68
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/972.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 1019,
+    "name": "hydrapple",
+    "height": 18,
+    "weight": 930,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "supersweet-syrup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 80,
+      "defense": 110,
+      "special-attack": 120,
+      "special-defense": 80,
+      "speed": 44
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/1019.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 635,
+    "name": "hydreigon",
+    "height": 18,
+    "weight": 1600,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 90,
+      "speed": 98
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/635.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 727,
+    "name": "incineroar",
+    "height": 18,
+    "weight": 830,
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "special-attack": 80,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/727.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 392,
+    "name": "infernape",
+    "height": 12,
+    "weight": 550,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 104,
+      "defense": 71,
+      "special-attack": 104,
+      "special-defense": 71,
+      "speed": 108
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/392.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "height": 8,
+    "weight": 245,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/135.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "height": 22,
+    "weight": 800,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special-attack": 40,
+      "special-defense": 80,
+      "speed": 90
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/115.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 983,
+    "name": "kingambit",
+    "height": 20,
+    "weight": 1200,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "defiant",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "supreme-overlord",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pressure",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "special-attack": 60,
+      "special-defense": 85,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/983.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 900,
+    "name": "kleavor",
+    "height": 18,
+    "weight": 890,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sharpness",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 135,
+      "defense": 95,
+      "special-attack": 45,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/900.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 707,
+    "name": "klefki",
+    "height": 2,
+    "weight": 30,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "special-attack": 80,
+      "special-defense": 87,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/707.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 784,
+    "name": "kommo-o",
+    "height": 16,
+    "weight": 782,
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "bulletproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 125,
+      "special-attack": 100,
+      "special-defense": 105,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/784.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 553,
+    "name": "krookodile",
+    "height": 15,
+    "weight": 963,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 117,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 70,
+      "speed": 92
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/553.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 470,
+    "name": "leafeon",
+    "height": 10,
+    "weight": 255,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "special-attack": 60,
+      "special-defense": 65,
+      "speed": 95
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/470.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 510,
+    "name": "liepard",
+    "height": 11,
+    "weight": 375,
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 88,
+      "defense": 50,
+      "special-attack": 88,
+      "special-defense": 50,
+      "speed": 106
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/510.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 428,
+    "name": "lopunny",
+    "height": 12,
+    "weight": 333,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "limber",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 76,
+      "defense": 84,
+      "special-attack": 54,
+      "special-defense": 96,
+      "speed": 105
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/428.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 448,
+    "name": "lucario",
+    "height": 12,
+    "weight": 540,
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "steadfast",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 115,
+      "special-defense": 70,
+      "speed": 90
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/448.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 405,
+    "name": "luxray",
+    "height": 14,
+    "weight": 420,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "guts",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 79,
+      "special-attack": 95,
+      "special-defense": 79,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/405.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 745,
+    "name": "lycanroc-midday",
+    "height": 8,
+    "weight": 250,
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 115,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 112
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/745.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10126,
+    "name": "lycanroc-midnight",
+    "height": 11,
+    "weight": 250,
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 75,
+      "special-attack": 55,
+      "special-defense": 75,
+      "speed": 82
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10126.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10152,
+    "name": "lycanroc-dusk",
+    "height": 8,
+    "weight": 250,
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10152.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "height": 16,
+    "weight": 1300,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 55
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/68.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 687,
+    "name": "malamar",
+    "height": 15,
+    "weight": 470,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "contrary",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "suction-cups",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 92,
+      "defense": 88,
+      "special-attack": 68,
+      "special-defense": 75,
+      "speed": 73
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/687.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 473,
+    "name": "mamoswine",
+    "height": 25,
+    "weight": 2910,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 60,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/473.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 310,
+    "name": "manectric",
+    "height": 15,
+    "weight": 402,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "minus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "special-attack": 105,
+      "special-defense": 60,
+      "speed": 105
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/310.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 925,
+    "name": "maushold-family-of-four",
+    "height": 3,
+    "weight": 28,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "friend-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 111
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/925.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10257,
+    "name": "maushold-family-of-three",
+    "height": 3,
+    "weight": 23,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "friend-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 111
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10257.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 303,
+    "name": "mawile",
+    "height": 6,
+    "weight": 115,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/303.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 308,
+    "name": "medicham",
+    "height": 13,
+    "weight": 315,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "pure-power",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/308.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10298,
+    "name": "barbaracle-mega",
+    "height": 22,
+    "weight": 1000,
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 140,
+      "defense": 130,
+      "special-attack": 64,
+      "special-defense": 106,
+      "speed": 88
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10298.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10298.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10050,
+    "name": "blaziken-mega",
+    "height": 19,
+    "weight": 520,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "speed-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 160,
+      "defense": 80,
+      "special-attack": 130,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10050.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10299,
+    "name": "dragalge-mega",
+    "height": 21,
+    "weight": 1003,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "regenerator",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 105,
+      "special-attack": 132,
+      "special-defense": 163,
+      "speed": 44
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10299.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10290,
+    "name": "eelektross-mega",
+    "height": 30,
+    "weight": 1800,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "eelevate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 145,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 90,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10290.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10290.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10303,
+    "name": "falinks-mega",
+    "height": 16,
+    "weight": 990,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "defiant",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 135,
+      "defense": 135,
+      "special-attack": 70,
+      "special-defense": 65,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10303.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10303.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10297,
+    "name": "malamar-mega",
+    "height": 29,
+    "weight": 698,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "contrary",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 102,
+      "defense": 88,
+      "special-attack": 98,
+      "special-defense": 120,
+      "speed": 88
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10297.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10297.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10052,
+    "name": "mawile-mega",
+    "height": 10,
+    "weight": 235,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "huge-power",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 125,
+      "special-attack": 55,
+      "special-defense": 95,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10052.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10076,
+    "name": "metagross-mega",
+    "height": 25,
+    "weight": 9429,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "special-attack": 105,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10076.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10295,
+    "name": "pyroar-mega",
+    "height": 15,
+    "weight": 933,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "fire-mane",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 88,
+      "defense": 92,
+      "special-attack": 129,
+      "special-defense": 86,
+      "speed": 126
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10295.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10304,
+    "name": "raichu-mega-x",
+    "height": 12,
+    "weight": 380,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "electric-surge",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 135,
+      "defense": 95,
+      "special-attack": 90,
+      "special-defense": 95,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10304.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10304.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10305,
+    "name": "raichu-mega-y",
+    "height": 10,
+    "weight": 260,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "no-guard",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 55,
+      "special-attack": 160,
+      "special-defense": 80,
+      "speed": 130
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10305.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10065,
+    "name": "sceptile-mega",
+    "height": 19,
+    "weight": 552,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 75,
+      "special-attack": 145,
+      "special-defense": 85,
+      "speed": 145
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10065.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10288,
+    "name": "scolipede-mega",
+    "height": 32,
+    "weight": 2305,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 140,
+      "defense": 149,
+      "special-attack": 75,
+      "special-defense": 99,
+      "speed": 62
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10288.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10289,
+    "name": "scrafty-mega",
+    "height": 11,
+    "weight": 310,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 135,
+      "special-attack": 55,
+      "special-defense": 135,
+      "speed": 68
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10289.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10289.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10308,
+    "name": "staraptor-mega",
+    "height": 19,
+    "weight": 500,
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "contrary",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 140,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 90,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10308.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10308.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 10064,
+    "name": "swampert-mega",
+    "height": 19,
+    "weight": 1020,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10064.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": true,
+      "mega_new_in_mb": true
+    }
+  },
+  {
+    "id": 154,
+    "name": "meganium",
+    "height": 18,
+    "weight": 1005,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 100,
+      "special-attack": 83,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/154.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 908,
+    "name": "meowscarada",
+    "height": 15,
+    "weight": 312,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "protean",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 81,
+      "special-defense": 70,
+      "speed": 123
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/908.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 678,
+    "name": "meowstic-male",
+    "height": 6,
+    "weight": 85,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special-attack": 83,
+      "special-defense": 81,
+      "speed": 104
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/678.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10025,
+    "name": "meowstic-female",
+    "height": 6,
+    "weight": 85,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special-attack": 83,
+      "special-defense": 81,
+      "speed": 104
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10025.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10025.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 376,
+    "name": "metagross",
+    "height": 16,
+    "weight": 5500,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "light-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/376.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 350,
+    "name": "milotic",
+    "height": 62,
+    "weight": 1620,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "marvel-scale",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cute-charm",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "special-attack": 100,
+      "special-defense": 125,
+      "speed": 81
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/350.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 778,
+    "name": "mimikyu-disguised",
+    "height": 2,
+    "weight": 7,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "disguise",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "special-attack": 50,
+      "special-defense": 105,
+      "speed": 96
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/778.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 877,
+    "name": "morpeko-full-belly",
+    "height": 3,
+    "weight": 30,
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "hunger-switch",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 58,
+      "special-attack": 70,
+      "special-defense": 58,
+      "speed": 97
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/877.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 866,
+    "name": "mr-rime",
+    "height": 15,
+    "weight": 582,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "screen-cleaner",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/866.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 750,
+    "name": "mudsdale",
+    "height": 25,
+    "weight": 9200,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "stamina",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 85,
+      "speed": 35
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/750.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 518,
+    "name": "musharna",
+    "height": 11,
+    "weight": 605,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "forewarn",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 116,
+      "attack": 55,
+      "defense": 85,
+      "special-attack": 107,
+      "special-defense": 95,
+      "speed": 29
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/518.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "height": 11,
+    "weight": 199,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "drought",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special-attack": 81,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/38.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 715,
+    "name": "noivern",
+    "height": 15,
+    "weight": 850,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "special-attack": 97,
+      "special-defense": 80,
+      "speed": 123
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/715.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 765,
+    "name": "oranguru",
+    "height": 15,
+    "weight": 760,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 80,
+      "special-attack": 90,
+      "special-defense": 110,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/765.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 968,
+    "name": "orthworm",
+    "height": 25,
+    "weight": 3100,
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "earth-eater",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 145,
+      "special-attack": 60,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/968.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 904,
+    "name": "overqwil",
+    "height": 25,
+    "weight": 605,
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 95,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/904.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 964,
+    "name": "palafin-zero",
+    "height": 13,
+    "weight": 602,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "zero-to-hero",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 70,
+      "defense": 72,
+      "special-attack": 53,
+      "special-defense": 62,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/964.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 10256,
+    "name": "palafin-hero",
+    "height": 18,
+    "weight": 974,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "zero-to-hero",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 160,
+      "defense": 97,
+      "special-attack": 106,
+      "special-defense": 87,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/10256.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10256.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 675,
+    "name": "pangoro",
+    "height": 21,
+    "weight": 1360,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 124,
+      "defense": 78,
+      "special-attack": 69,
+      "special-defense": 71,
+      "speed": 58
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/675.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 766,
+    "name": "passimian",
+    "height": 20,
+    "weight": 828,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "receiver",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 90,
+      "special-attack": 40,
+      "special-defense": 60,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/766.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 504,
+    "name": "patrat",
+    "height": 5,
+    "weight": 116,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 39,
+      "special-attack": 35,
+      "special-defense": 39,
+      "speed": 42
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/504.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 279,
+    "name": "pelipper",
+    "height": 12,
+    "weight": 280,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "drizzle",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 70,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/279.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "height": 15,
+    "weight": 395,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 101
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/18.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "height": 4,
+    "weight": 60,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/25.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "height": 15,
+    "weight": 550,
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/127.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 186,
+    "name": "politoed",
+    "height": 11,
+    "weight": 339,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "damp",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "drizzle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "special-attack": 90,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/186.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 855,
+    "name": "polteageist",
+    "height": 2,
+    "weight": 4,
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "weak-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 134,
+      "special-defense": 114,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/855.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 730,
+    "name": "primarina",
+    "height": 18,
+    "weight": 440,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "liquid-voice",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "special-attack": 126,
+      "special-defense": 116,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/730.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 668,
+    "name": "pyroar-male",
+    "height": 15,
+    "weight": 815,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 68,
+      "defense": 72,
+      "special-attack": 109,
+      "special-defense": 66,
+      "speed": 106
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/668.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 914,
+    "name": "quaquaval",
+    "height": 18,
+    "weight": 619,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/914.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 211,
+    "name": "qwilfish",
+    "height": 5,
+    "weight": 39,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/211.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "height": 8,
+    "weight": 300,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/26.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 409,
+    "name": "rampardos",
+    "height": 16,
+    "weight": 1025,
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 165,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 58
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/409.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 579,
+    "name": "reuniclus",
+    "height": 10,
+    "weight": 201,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "overcoat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 65,
+      "defense": 75,
+      "special-attack": 125,
+      "special-defense": 85,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/579.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 464,
+    "name": "rhyperior",
+    "height": 24,
+    "weight": 2828,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solid-rock",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 140,
+      "defense": 130,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 40
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/464.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 407,
+    "name": "roserade",
+    "height": 9,
+    "weight": 145,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 65,
+      "special-attack": 125,
+      "special-defense": 105,
+      "speed": 90
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/407.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 479,
+    "name": "rotom",
+    "height": 3,
+    "weight": 3,
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 77,
+      "special-attack": 95,
+      "special-defense": 77,
+      "speed": 91
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/479.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 867,
+    "name": "runerigus",
+    "height": 16,
+    "weight": 666,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "wandering-spirit",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 145,
+      "special-attack": 50,
+      "special-defense": 105,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/867.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 302,
+    "name": "sableye",
+    "height": 5,
+    "weight": 110,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "stall",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/302.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 758,
+    "name": "salazzle",
+    "height": 12,
+    "weight": 222,
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "corrosion",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "special-attack": 111,
+      "special-defense": 60,
+      "speed": 117
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/758.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 503,
+    "name": "samurott",
+    "height": 15,
+    "weight": 946,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 100,
+      "defense": 85,
+      "special-attack": 108,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/503.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 844,
+    "name": "sandaconda",
+    "height": 38,
+    "weight": 655,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-spit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 107,
+      "defense": 125,
+      "special-attack": 65,
+      "special-defense": 70,
+      "speed": 71
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/844.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 254,
+    "name": "sceptile",
+    "height": 17,
+    "weight": 522,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 105,
+      "special-defense": 85,
+      "speed": 120
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/254.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 212,
+    "name": "scizor",
+    "height": 18,
+    "weight": 1180,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "light-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/212.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 545,
+    "name": "scolipede",
+    "height": 25,
+    "weight": 2005,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 89,
+      "special-attack": 55,
+      "special-defense": 69,
+      "speed": 112
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/545.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 952,
+    "name": "scovillain",
+    "height": 9,
+    "weight": 150,
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 108,
+      "defense": 65,
+      "special-attack": 108,
+      "special-defense": 65,
+      "speed": 75
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/952.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 560,
+    "name": "scrafty",
+    "height": 11,
+    "weight": 300,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 115,
+      "special-attack": 45,
+      "special-defense": 115,
+      "speed": 58
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/560.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 497,
+    "name": "serperior",
+    "height": 33,
+    "weight": 630,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "contrary",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 95,
+      "special-attack": 75,
+      "special-defense": 95,
+      "speed": 113
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/497.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 319,
+    "name": "sharpedo",
+    "height": 18,
+    "weight": 888,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "rough-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 40,
+      "special-attack": 95,
+      "special-defense": 40,
+      "speed": 95
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/319.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 516,
+    "name": "simipour",
+    "height": 10,
+    "weight": 290,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "torrent",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special-attack": 98,
+      "special-defense": 63,
+      "speed": 101
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/516.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 512,
+    "name": "simisage",
+    "height": 11,
+    "weight": 305,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overgrow",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special-attack": 98,
+      "special-defense": 63,
+      "speed": 101
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/512.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 514,
+    "name": "simisear",
+    "height": 10,
+    "weight": 280,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "blaze",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special-attack": 98,
+      "special-defense": 63,
+      "speed": 101
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/514.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 1013,
+    "name": "sinistcha",
+    "height": 2,
+    "weight": 22,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "hospitality",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heatproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 60,
+      "defense": 106,
+      "special-attack": 121,
+      "special-defense": 80,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/1013.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 227,
+    "name": "skarmory",
+    "height": 17,
+    "weight": 505,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "special-attack": 40,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/227.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 911,
+    "name": "skeledirge",
+    "height": 16,
+    "weight": 3265,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "special-attack": 110,
+      "special-defense": 75,
+      "speed": 66
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/911.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "height": 16,
+    "weight": 785,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/80.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 199,
+    "name": "slowking",
+    "height": 20,
+    "weight": 795,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 110,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/199.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 685,
+    "name": "slurpuff",
+    "height": 8,
+    "weight": 50,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 80,
+      "defense": 86,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 72
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/685.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 903,
+    "name": "sneasler",
+    "height": 13,
+    "weight": 430,
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 80,
+      "speed": 120
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/903.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "height": 21,
+    "weight": 4600,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "immunity",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 110,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/143.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 442,
+    "name": "spiritomb",
+    "height": 10,
+    "weight": 1080,
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "special-attack": 92,
+      "special-defense": 108,
+      "speed": 35
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/442.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 398,
+    "name": "staraptor",
+    "height": 12,
+    "weight": 249,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 70,
+      "special-attack": 50,
+      "special-defense": 60,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/398.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "height": 11,
+    "weight": 800,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/121.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 208,
+    "name": "steelix",
+    "height": 92,
+    "weight": 4000,
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/208.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 618,
+    "name": "stunfisk",
+    "height": 7,
+    "weight": 110,
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 66,
+      "defense": 84,
+      "special-attack": 81,
+      "special-defense": 99,
+      "speed": 32
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/618.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 260,
+    "name": "swampert",
+    "height": 15,
+    "weight": 819,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "special-attack": 85,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/260.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 700,
+    "name": "sylveon",
+    "height": 10,
+    "weight": 235,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pixilate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 110,
+      "special-defense": 130,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/700.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 663,
+    "name": "talonflame",
+    "height": 12,
+    "weight": 245,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gale-wings",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 81,
+      "defense": 71,
+      "special-attack": 74,
+      "special-defense": 69,
+      "speed": 126
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/663.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "height": 14,
+    "weight": 884,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/128.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 959,
+    "name": "tinkaton",
+    "height": 7,
+    "weight": 1128,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "special-attack": 70,
+      "special-defense": 105,
+      "speed": 94
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/959.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 324,
+    "name": "torkoal",
+    "height": 5,
+    "weight": 804,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "white-smoke",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "drought",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "special-attack": 85,
+      "special-defense": 70,
+      "speed": 20
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/324.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 389,
+    "name": "torterra",
+    "height": 22,
+    "weight": 3100,
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 109,
+      "defense": 105,
+      "special-attack": 75,
+      "special-defense": 85,
+      "speed": 56
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/389.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 733,
+    "name": "toucannon",
+    "height": 11,
+    "weight": 260,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 75,
+      "special-attack": 75,
+      "special-defense": 75,
+      "speed": 60
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/733.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 748,
+    "name": "toxapex",
+    "height": 7,
+    "weight": 145,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "merciless",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "special-attack": 53,
+      "special-defense": 142,
+      "speed": 35
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/748.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 454,
+    "name": "toxicroak",
+    "height": 13,
+    "weight": 444,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 106,
+      "defense": 65,
+      "special-attack": 86,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/454.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 709,
+    "name": "trevenant",
+    "height": 15,
+    "weight": 710,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 110,
+      "defense": 76,
+      "special-attack": 65,
+      "special-defense": 82,
+      "speed": 56
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/709.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 763,
+    "name": "tsareena",
+    "height": 12,
+    "weight": 214,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "queenly-majesty",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sweet-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "special-attack": 50,
+      "special-defense": 98,
+      "speed": 72
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/763.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 157,
+    "name": "typhlosion",
+    "height": 17,
+    "weight": 795,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/157.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 248,
+    "name": "tyranitar",
+    "height": 20,
+    "weight": 2020,
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "special-attack": 95,
+      "special-defense": 100,
+      "speed": 61
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/248.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 697,
+    "name": "tyrantrum",
+    "height": 25,
+    "weight": 2700,
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 82,
+      "attack": 121,
+      "defense": 119,
+      "special-attack": 69,
+      "special-defense": 59,
+      "speed": 71
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/697.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 197,
+    "name": "umbreon",
+    "height": 10,
+    "weight": 270,
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "special-attack": 60,
+      "special-defense": 130,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/197.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 584,
+    "name": "vanilluxe",
+    "height": 13,
+    "weight": 575,
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-warning",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 79
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/584.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "height": 10,
+    "weight": 290,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/134.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "height": 20,
+    "weight": 1000,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/3.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "height": 17,
+    "weight": 155,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/71.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "height": 12,
+    "weight": 186,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special-attack": 110,
+      "special-defense": 90,
+      "speed": 50
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/45.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 666,
+    "name": "vivillon",
+    "height": 12,
+    "weight": 170,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 52,
+      "defense": 50,
+      "special-attack": 90,
+      "special-defense": 50,
+      "speed": 89
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/666.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 637,
+    "name": "volcarona",
+    "height": 16,
+    "weight": 460,
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swarm",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 65,
+      "special-attack": 135,
+      "special-defense": 105,
+      "speed": 100
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/637.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 461,
+    "name": "weavile",
+    "height": 11,
+    "weight": 340,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "special-attack": 45,
+      "special-defense": 85,
+      "speed": 125
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/461.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 547,
+    "name": "whimsicott",
+    "height": 7,
+    "weight": 66,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 67,
+      "defense": 85,
+      "special-attack": 77,
+      "special-defense": 75,
+      "speed": 116
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/547.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 899,
+    "name": "wyrdeer",
+    "height": 18,
+    "weight": 951,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 105,
+      "defense": 72,
+      "special-attack": 105,
+      "special-defense": 75,
+      "speed": 65
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/899.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  },
+  {
+    "id": 571,
+    "name": "zoroark",
+    "height": 16,
+    "weight": 811,
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      {
+        "name": "illusion",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 105,
+      "defense": 60,
+      "special-attack": 120,
+      "special-defense": 60,
+      "speed": 105
+    },
+    "sprites": {
+      "official_artwork": "assets/sprites/pokemon/571.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+    },
+    "regulation": {
+      "legal": true,
+      "is_mega": false,
+      "mega_new_in_mb": false
+    }
+  }
+]

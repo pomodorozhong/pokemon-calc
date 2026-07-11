@@ -1,0 +1,10 @@
+# Generated data cache (reproducible via scripts/fetch_data.py)
+data/raw/
+
+# Fetch logs
+data/fetch.log
+assets/download.log
+
+# Python
+__pycache__/
+*.pyc

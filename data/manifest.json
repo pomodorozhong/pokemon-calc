@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-07-11T18:50:27Z",
+  "regulation": "reg-mb",
+  "game": "Pokemon Champions",
+  "counts": {
+    "pokemon": 231,
+    "moves": 502,
+    "items": 148,
+    "abilities": 186,
+    "types": 19,
+    "natures": 25
+  },
+  "missing_frompokeapi": {
+    "pokemon": [],
+    "items": [],
+    "moves": []
+  },
+  "files": {
+    "pokemon": "data/champions/reg-mb/pokemon.json",
+    "moves": "data/champions/reg-mb/moves.json",
+    "items": "data/champions/reg-mb/items.json",
+    "abilities": "data/champions/reg-mb/abilities.json",
+    "type_chart": "data/champions/reg-mb/type-chart.json",
+    "natures": "data/champions/reg-mb/natures.json",
+    "mechanics": "data/champions/reg-mb/mechanics.json",
+    "regulation": "data/champions/reg-mb/regulation.json",
+    "i18n": "data/champions/reg-mb/i18n/",
+    "sprites_pokemon": "assets/sprites/pokemon/",
+    "sprites_types": "assets/sprites/types/"
+  },
+  "i18n": {
+    "locales": [
+      "en",
+      "zh-Hans",
+      "ja"
+    ],
+    "config": "data/i18n/config.json",
+    "catalog": "data/champions/reg-mb/i18n/catalog.json"
+  },
+  "notes": [
+    "Filtered for Pokemon Champions Regulation Set M-B (current as of July 2026).",
+    "Legal lists sourced from MetaVGC snapshot cross-checked with Serebii and Pokemon HOME.",
+    "Stat Points (66 cap, 32 max/stat) replace traditional EV spreads.",
+    "Full unfiltered PokeAPI exports remain in data/ for reference.",
+    "Run scripts/build_i18n.py after building to generate locale files."
+  ]
+}
