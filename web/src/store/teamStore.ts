@@ -19,6 +19,8 @@ function persistOurTeamAndLocale(ourTeam: (Pokemon | null)[], locale: string): v
     locale,
     ourTeam: teamToSlugs(ourTeam),
     tipsDismissed: existing?.tipsDismissed,
+    sortMode: existing?.sortMode,
+    metaDatasetId: existing?.metaDatasetId,
   })
 }
 

@@ -8,6 +8,7 @@ import {
   type SortMode,
 } from '@/lib/pokemonSort'
 import { spriteUrl, typeSpriteUrl } from '@/lib/pokemon'
+import { persistPickerPrefs, readPersistedPrefs } from '@/lib/cookies'
 import { useTeamStore } from '@/store/teamStore'
 
 interface PokemonPickerProps {
@@ -35,14 +36,15 @@ export function PokemonPicker({
 
   const [query, setQuery] = useState('')
   const [typeFilter, setTypeFilter] = useState<string | null>(null)
-  const [sortMode, setSortMode] = useState<SortMode>('meta')
+  const [sortMode, setSortMode] = useState<SortMode>(
+    () => readPersistedPrefs()?.sortMode ?? 'meta',
+  )
   const searchInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     if (!activeSlot) return
     setQuery('')
     setTypeFilter(null)
-    setSortMode('meta')
     searchInputRef.current?.focus()
   }, [activeSlot])
 
@@ -119,7 +121,11 @@ export function PokemonPicker({
             <label className="text-sm text-slate-400">Sort</label>
             <select
               value={sortMode}
-              onChange={(event) => setSortMode(event.target.value as SortMode)}
+              onChange={(event) => {
+                const mode = event.target.value as SortMode
+                setSortMode(mode)
+                persistPickerPrefs({ sortMode: mode })
+              }}
               className="rounded-lg border border-slate-600 bg-slate-950 px-3 py-1.5 text-sm text-white"
             >
               <option value="meta">Meta usage</option>
