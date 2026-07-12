@@ -7,6 +7,7 @@ import { useTeamStore } from '@/store/teamStore'
 interface PokemonPickerProps {
   pokemon: Pokemon[]
   typeOptions: string[]
+  metaUsageRank: Record<string, number>
   pokemonName: (slug: string) => string
   typeName: (slug: string) => string
 }
@@ -14,6 +15,7 @@ interface PokemonPickerProps {
 export function PokemonPicker({
   pokemon,
   typeOptions,
+  metaUsageRank,
   pokemonName,
   typeName,
 }: PokemonPickerProps) {
@@ -47,8 +49,8 @@ export function PokemonPicker({
 
   const filtered = useMemo(() => {
     const filteredList = filterPokemon(pokemon, query, typeFilter, pokemonName)
-    return sortPokemon(filteredList, sortMode)
-  }, [pokemon, query, typeFilter, sortMode, pokemonName])
+    return sortPokemon(filteredList, sortMode, metaUsageRank)
+  }, [pokemon, query, typeFilter, sortMode, metaUsageRank, pokemonName])
 
   if (!activeSlot) return null
 

@@ -2,12 +2,14 @@ import { useEffect, useMemo, useRef, useState, type MouseEvent } from 'react'
 import { dismissTips, readPersistedPrefs } from '@/lib/cookies'
 import type { Pokemon, TypeChart } from '@/types/pokemon'
 import {
+  loadMetaUsage,
   loadPokemon,
   loadPokemonNames,
   loadTypeChart,
   loadTypeNames,
   loadUiStrings,
 } from '@/lib/pokemon'
+import { buildMetaUsageRank } from '@/lib/pokemonSort'
 import { analyzeTeam, topRecommendations } from '@/lib/matchup'
 import { useI18n } from '@/hooks/useI18n'
 import { useTeamStore } from '@/store/teamStore'
@@ -27,6 +29,7 @@ export function LeadPickerScreen() {
   const [ui, setUi] = useState<Record<string, string> | null>(null)
   const [pokemonNames, setPokemonNames] = useState<Record<string, string> | null>(null)
   const [typeNames, setTypeNames] = useState<Record<string, string> | null>(null)
+  const [metaUsageRank, setMetaUsageRank] = useState<Record<string, number>>({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [tipsVisible, setTipsVisible] = useState(
@@ -47,9 +50,10 @@ export function LeadPickerScreen() {
       setLoading(true)
       setError(null)
       try {
-        const [mons, chart, uiStrings, names, types] = await Promise.all([
+        const [mons, chart, metaUsage, uiStrings, names, types] = await Promise.all([
           loadPokemon(),
           loadTypeChart(),
+          loadMetaUsage(),
           loadUiStrings(locale),
           loadPokemonNames(locale),
           loadTypeNames(locale),
@@ -61,6 +65,7 @@ export function LeadPickerScreen() {
           hasHydratedTeam.current = true
         }
         setTypeChart(chart)
+        setMetaUsageRank(buildMetaUsageRank(metaUsage.rankings))
         setUi(uiStrings)
         setPokemonNames(names)
         setTypeNames(types)
@@ -246,6 +251,7 @@ export function LeadPickerScreen() {
       <PokemonPicker
         pokemon={pokemon}
         typeOptions={typeOptions}
+        metaUsageRank={metaUsageRank}
         pokemonName={pokemonName}
         typeName={typeName}
       />

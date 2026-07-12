@@ -68,3 +68,18 @@ export interface MatchupSummary {
   weakTo: MatchupDetail[]
   effectiveTo: MatchupDetail[]
 }
+
+export interface MetaUsageRanking {
+  rank: number
+  name: string
+  count: number
+  usage_pct: number
+}
+
+export interface MetaUsage {
+  regulation: string
+  generated_at: string
+  teams_tracked: number
+  tournaments: number
+  rankings: MetaUsageRanking[]
+}

@@ -25,6 +25,7 @@
     "natures": "data/champions/reg-mb/natures.json",
     "mechanics": "data/champions/reg-mb/mechanics.json",
     "regulation": "data/champions/reg-mb/regulation.json",
+    "meta_usage": "data/champions/reg-mb/meta-usage.json",
     "i18n": "data/champions/reg-mb/i18n/",
     "sprites_pokemon": "assets/sprites/pokemon/",
     "sprites_types": "assets/sprites/types/"
