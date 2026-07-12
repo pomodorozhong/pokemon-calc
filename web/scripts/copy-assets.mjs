@@ -8,6 +8,7 @@ const publicDir = path.resolve(__dirname, '../public')
 
 const dataFiles = [
   'data/champions/reg-mb/pokemon.json',
+  'data/champions/reg-mb/meta-usage.json',
   'data/champions/reg-mb/type-chart.json',
   'data/champions/reg-mb/i18n/en/ui.json',
   'data/champions/reg-mb/i18n/en/pokemon.json',

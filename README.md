@@ -50,6 +50,7 @@ python3 scripts/fetch_data.py
 python3 scripts/build_champions.py
 python3 scripts/build_i18n.py
 python3 scripts/download_sprites.py
+python3 scripts/fetch_meta_usage.py
 ```
 
 ## Internationalization

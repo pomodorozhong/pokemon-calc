@@ -1,31 +1,44 @@
-import type { Pokemon } from '@/types/pokemon'
+import type { MetaDatasetId, MetaUsage, Pokemon } from '@/types/pokemon'
 
 export type SortMode = 'codex' | 'meta' | 'name'
 
-const META_USAGE_RANK: Record<string, number> = {
-  'incineroar': 1,
-  'rillaboom': 2,
-  'amoonguss': 3,
-  'flutter-mane': 4,
-  'landorus': 5,
-  'gholdengo': 6,
-  'urshifu-rapid-strike': 7,
-  'urshifu-single-strike': 8,
-  'tornadus': 9,
-  'kingambit': 10,
-  'garchomp': 11,
-  'dragapult': 12,
-  'palafin-hero': 13,
-  'ogerpon-hearthflame': 14,
-  'ogerpon-wellspring': 15,
-  'ogerpon-cornerstone': 16,
-  'ogerpon': 17,
-  'archaludon': 18,
-  'gouging-fire': 19,
-  'raging-bolt': 20,
+export const META_DATASET_ORDER: MetaDatasetId[] = [
+  'doubles-tournament',
+  'doubles-ladder',
+  'singles-tournament',
+  'singles-ladder',
+]
+
+export function buildMetaUsageRank(rankings: { name: string; rank: number }[]): Record<string, number> {
+  return Object.fromEntries(rankings.map((entry) => [entry.name, entry.rank]))
 }
 
-export function sortPokemon(list: Pokemon[], mode: SortMode): Pokemon[] {
+export function getAvailableMetaDatasets(metaUsage: MetaUsage) {
+  return META_DATASET_ORDER
+    .map((id) => metaUsage.datasets[id])
+    .filter((dataset) => dataset.available)
+}
+
+export function getDefaultMetaDatasetId(metaUsage: MetaUsage): MetaDatasetId {
+  const preferred = metaUsage.defaults.doubles
+  if (metaUsage.datasets[preferred]?.available) return preferred
+  return getAvailableMetaDatasets(metaUsage)[0]?.id ?? preferred
+}
+
+export function getMetaUsageRankMap(
+  metaUsage: MetaUsage,
+  datasetId: MetaDatasetId,
+): Record<string, number> {
+  const dataset = metaUsage.datasets[datasetId]
+  if (!dataset?.available) return {}
+  return buildMetaUsageRank(dataset.rankings)
+}
+
+export function sortPokemon(
+  list: Pokemon[],
+  mode: SortMode,
+  metaUsageRank: Record<string, number> = {},
+): Pokemon[] {
   const sorted = [...list]
 
   switch (mode) {
@@ -35,8 +48,8 @@ export function sortPokemon(list: Pokemon[], mode: SortMode): Pokemon[] {
       return sorted.sort((a, b) => a.name.localeCompare(b.name))
     case 'meta':
       return sorted.sort((a, b) => {
-        const rankA = META_USAGE_RANK[a.name] ?? 999
-        const rankB = META_USAGE_RANK[b.name] ?? 999
+        const rankA = metaUsageRank[a.name] ?? 999
+        const rankB = metaUsageRank[b.name] ?? 999
         if (rankA !== rankB) return rankA - rankB
         return a.id - b.id
       })

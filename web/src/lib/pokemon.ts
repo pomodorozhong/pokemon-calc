@@ -1,4 +1,4 @@
-import type { Pokemon, TypeChart, TypeRelations } from '@/types/pokemon'
+import type { MetaUsage, Pokemon, TypeChart, TypeRelations } from '@/types/pokemon'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -22,6 +22,12 @@ export async function loadPokemon(): Promise<Pokemon[]> {
 export async function loadTypeChart(): Promise<TypeChart> {
   const res = await fetch(`${DATA_BASE}/type-chart.json`)
   if (!res.ok) throw new Error('Failed to load type chart')
+  return res.json()
+}
+
+export async function loadMetaUsage(): Promise<MetaUsage> {
+  const res = await fetch(`${DATA_BASE}/meta-usage.json`)
+  if (!res.ok) throw new Error('Failed to load meta usage data')
   return res.json()
 }
 

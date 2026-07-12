@@ -1,12 +1,21 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { Pokemon } from '@/types/pokemon'
-import { filterPokemon, sortPokemon, type SortMode } from '@/lib/pokemonSort'
+import type { MetaDatasetId, MetaUsage, Pokemon } from '@/types/pokemon'
+import {
+  filterPokemon,
+  getAvailableMetaDatasets,
+  getMetaUsageRankMap,
+  sortPokemon,
+  type SortMode,
+} from '@/lib/pokemonSort'
 import { spriteUrl, typeSpriteUrl } from '@/lib/pokemon'
 import { useTeamStore } from '@/store/teamStore'
 
 interface PokemonPickerProps {
   pokemon: Pokemon[]
   typeOptions: string[]
+  metaUsage: MetaUsage | null
+  metaDatasetId: MetaDatasetId
+  onMetaDatasetChange: (datasetId: MetaDatasetId) => void
   pokemonName: (slug: string) => string
   typeName: (slug: string) => string
 }
@@ -14,6 +23,9 @@ interface PokemonPickerProps {
 export function PokemonPicker({
   pokemon,
   typeOptions,
+  metaUsage,
+  metaDatasetId,
+  onMetaDatasetChange,
   pokemonName,
   typeName,
 }: PokemonPickerProps) {
@@ -45,10 +57,20 @@ export function PokemonPicker({
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [activeSlot, dismiss])
 
+  const availableMetaDatasets = useMemo(
+    () => (metaUsage ? getAvailableMetaDatasets(metaUsage) : []),
+    [metaUsage],
+  )
+
+  const metaUsageRank = useMemo(
+    () => (metaUsage ? getMetaUsageRankMap(metaUsage, metaDatasetId) : {}),
+    [metaUsage, metaDatasetId],
+  )
+
   const filtered = useMemo(() => {
     const filteredList = filterPokemon(pokemon, query, typeFilter, pokemonName)
-    return sortPokemon(filteredList, sortMode)
-  }, [pokemon, query, typeFilter, sortMode, pokemonName])
+    return sortPokemon(filteredList, sortMode, metaUsageRank)
+  }, [pokemon, query, typeFilter, sortMode, metaUsageRank, pokemonName])
 
   if (!activeSlot) return null
 
@@ -104,6 +126,23 @@ export function PokemonPicker({
               <option value="codex">Codex ID</option>
               <option value="name">Name</option>
             </select>
+
+            {sortMode === 'meta' && availableMetaDatasets.length > 0 ? (
+              <>
+                <label className="text-sm text-slate-400">Meta</label>
+                <select
+                  value={metaDatasetId}
+                  onChange={(event) => onMetaDatasetChange(event.target.value as MetaDatasetId)}
+                  className="rounded-lg border border-slate-600 bg-slate-950 px-3 py-1.5 text-sm text-white"
+                >
+                  {availableMetaDatasets.map((dataset) => (
+                    <option key={dataset.id} value={dataset.id}>
+                      {dataset.label}
+                    </option>
+                  ))}
+                </select>
+              </>
+            ) : null}
 
             <button
               type="button"
