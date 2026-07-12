@@ -9,7 +9,10 @@ import {
   loadTypeNames,
   loadUiStrings,
 } from '@/lib/pokemon'
-import { buildMetaUsageRank } from '@/lib/pokemonSort'
+import {
+  getDefaultMetaDatasetId,
+} from '@/lib/pokemonSort'
+import type { MetaDatasetId, MetaUsage } from '@/types/pokemon'
 import { analyzeTeam, topRecommendations } from '@/lib/matchup'
 import { useI18n } from '@/hooks/useI18n'
 import { useTeamStore } from '@/store/teamStore'
@@ -29,7 +32,8 @@ export function LeadPickerScreen() {
   const [ui, setUi] = useState<Record<string, string> | null>(null)
   const [pokemonNames, setPokemonNames] = useState<Record<string, string> | null>(null)
   const [typeNames, setTypeNames] = useState<Record<string, string> | null>(null)
-  const [metaUsageRank, setMetaUsageRank] = useState<Record<string, number>>({})
+  const [metaUsage, setMetaUsage] = useState<MetaUsage | null>(null)
+  const [metaDatasetId, setMetaDatasetId] = useState<MetaDatasetId>('doubles-tournament')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [tipsVisible, setTipsVisible] = useState(
@@ -65,7 +69,8 @@ export function LeadPickerScreen() {
           hasHydratedTeam.current = true
         }
         setTypeChart(chart)
-        setMetaUsageRank(buildMetaUsageRank(metaUsage.rankings))
+        setMetaUsage(metaUsage)
+        setMetaDatasetId(getDefaultMetaDatasetId(metaUsage))
         setUi(uiStrings)
         setPokemonNames(names)
         setTypeNames(types)
@@ -251,7 +256,9 @@ export function LeadPickerScreen() {
       <PokemonPicker
         pokemon={pokemon}
         typeOptions={typeOptions}
-        metaUsageRank={metaUsageRank}
+        metaUsage={metaUsage}
+        metaDatasetId={metaDatasetId}
+        onMetaDatasetChange={setMetaDatasetId}
         pokemonName={pokemonName}
         typeName={typeName}
       />

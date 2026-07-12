@@ -1,9 +1,37 @@
-import type { Pokemon } from '@/types/pokemon'
+import type { MetaDatasetId, MetaUsage, Pokemon } from '@/types/pokemon'
 
 export type SortMode = 'codex' | 'meta' | 'name'
 
+export const META_DATASET_ORDER: MetaDatasetId[] = [
+  'doubles-tournament',
+  'doubles-ladder',
+  'singles-tournament',
+  'singles-ladder',
+]
+
 export function buildMetaUsageRank(rankings: { name: string; rank: number }[]): Record<string, number> {
   return Object.fromEntries(rankings.map((entry) => [entry.name, entry.rank]))
+}
+
+export function getAvailableMetaDatasets(metaUsage: MetaUsage) {
+  return META_DATASET_ORDER
+    .map((id) => metaUsage.datasets[id])
+    .filter((dataset) => dataset.available)
+}
+
+export function getDefaultMetaDatasetId(metaUsage: MetaUsage): MetaDatasetId {
+  const preferred = metaUsage.defaults.doubles
+  if (metaUsage.datasets[preferred]?.available) return preferred
+  return getAvailableMetaDatasets(metaUsage)[0]?.id ?? preferred
+}
+
+export function getMetaUsageRankMap(
+  metaUsage: MetaUsage,
+  datasetId: MetaDatasetId,
+): Record<string, number> {
+  const dataset = metaUsage.datasets[datasetId]
+  if (!dataset?.available) return {}
+  return buildMetaUsageRank(dataset.rankings)
 }
 
 export function sortPokemon(
