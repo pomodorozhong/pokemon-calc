@@ -1,12 +1,24 @@
+import type { MetaDatasetId } from '@/types/pokemon'
+import type { SortMode } from '@/lib/pokemonSort'
+
 const COOKIE_NAME = 'pokemon-calc.prefs'
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 365
 const SUPPORTED_LOCALES = new Set(['en', 'zh-Hans', 'zh-Hant', 'ja'])
 const TEAM_SIZE = 6
+const SORT_MODES = new Set<SortMode>(['codex', 'meta', 'name'])
+const META_DATASET_IDS = new Set<MetaDatasetId>([
+  'doubles-tournament',
+  'doubles-ladder',
+  'singles-tournament',
+  'singles-ladder',
+])
 
 export interface PersistedPrefs {
   locale: string
   ourTeam: (string | null)[]
   tipsDismissed?: boolean
+  sortMode?: SortMode
+  metaDatasetId?: MetaDatasetId
 }
 
 function cookiePath(): string {
@@ -49,10 +61,22 @@ export function readPersistedPrefs(): PersistedPrefs | null {
         ? parsed.locale
         : 'en'
 
+    const sortMode =
+      typeof parsed.sortMode === 'string' && SORT_MODES.has(parsed.sortMode as SortMode)
+        ? (parsed.sortMode as SortMode)
+        : undefined
+    const metaDatasetId =
+      typeof parsed.metaDatasetId === 'string' &&
+      META_DATASET_IDS.has(parsed.metaDatasetId as MetaDatasetId)
+        ? (parsed.metaDatasetId as MetaDatasetId)
+        : undefined
+
     return {
       locale,
       ourTeam: normalizeTeam(parsed.ourTeam),
       tipsDismissed: parsed.tipsDismissed === true,
+      sortMode,
+      metaDatasetId,
     }
   } catch {
     return null
@@ -67,7 +91,26 @@ export function writePersistedPrefs(prefs: PersistedPrefs): void {
   if (prefs.tipsDismissed) {
     payload.tipsDismissed = true
   }
+  if (prefs.sortMode) {
+    payload.sortMode = prefs.sortMode
+  }
+  if (prefs.metaDatasetId) {
+    payload.metaDatasetId = prefs.metaDatasetId
+  }
   writeCookie(COOKIE_NAME, JSON.stringify(payload))
+}
+
+export function persistPickerPrefs(
+  prefs: Partial<Pick<PersistedPrefs, 'sortMode' | 'metaDatasetId'>>,
+): void {
+  const current = readPersistedPrefs() ?? {
+    locale: 'en',
+    ourTeam: normalizeTeam([]),
+  }
+  writePersistedPrefs({
+    ...current,
+    ...prefs,
+  })
 }
 
 export function dismissTips(): void {

@@ -25,6 +25,14 @@ export function getDefaultMetaDatasetId(metaUsage: MetaUsage): MetaDatasetId {
   return getAvailableMetaDatasets(metaUsage)[0]?.id ?? preferred
 }
 
+export function resolveMetaDatasetId(
+  metaUsage: MetaUsage,
+  preferred?: MetaDatasetId | null,
+): MetaDatasetId {
+  if (preferred && metaUsage.datasets[preferred]?.available) return preferred
+  return getDefaultMetaDatasetId(metaUsage)
+}
+
 export function getMetaUsageRankMap(
   metaUsage: MetaUsage,
   datasetId: MetaDatasetId,

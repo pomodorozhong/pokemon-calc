@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type MouseEvent } from 'react'
-import { dismissTips, readPersistedPrefs } from '@/lib/cookies'
+import { dismissTips, persistPickerPrefs, readPersistedPrefs } from '@/lib/cookies'
 import type { Pokemon, TypeChart } from '@/types/pokemon'
 import {
   loadMetaUsage,
@@ -9,9 +9,7 @@ import {
   loadTypeNames,
   loadUiStrings,
 } from '@/lib/pokemon'
-import {
-  getDefaultMetaDatasetId,
-} from '@/lib/pokemonSort'
+import { resolveMetaDatasetId } from '@/lib/pokemonSort'
 import type { MetaDatasetId, MetaUsage } from '@/types/pokemon'
 import { analyzeTeam, topRecommendations } from '@/lib/matchup'
 import { useI18n } from '@/hooks/useI18n'
@@ -70,7 +68,9 @@ export function LeadPickerScreen() {
         }
         setTypeChart(chart)
         setMetaUsage(metaUsage)
-        setMetaDatasetId(getDefaultMetaDatasetId(metaUsage))
+        setMetaDatasetId(
+          resolveMetaDatasetId(metaUsage, readPersistedPrefs()?.metaDatasetId),
+        )
         setUi(uiStrings)
         setPokemonNames(names)
         setTypeNames(types)
@@ -258,7 +258,10 @@ export function LeadPickerScreen() {
         typeOptions={typeOptions}
         metaUsage={metaUsage}
         metaDatasetId={metaDatasetId}
-        onMetaDatasetChange={setMetaDatasetId}
+        onMetaDatasetChange={(datasetId) => {
+          setMetaDatasetId(datasetId)
+          persistPickerPrefs({ metaDatasetId: datasetId })
+        }}
         pokemonName={pokemonName}
         typeName={typeName}
       />
