@@ -19,6 +19,8 @@ POKEMON_PATH = ROOT / "data" / "champions" / "reg-mb" / "pokemon.json"
 ITEMS_PATH = ROOT / "data" / "champions" / "reg-mb" / "items.json"
 LIMITLESS_API = "https://play.limitlesstcg.com/api"
 PIKALYTICS_DOUBLES_LADDER = "https://www.pikalytics.com/ai/pokedex/battledataregmbs3"
+POKEDB_BASE = "https://champs.pokedb.tokyo"
+POKEDB_SINGLES_SEASON = 4  # Season M-4 (Reg M-B singles)
 USER_AGENT = "pokemon-calc-meta-fetch/1.0"
 REQUEST_DELAY = 0.05
 MAX_RETRIES = 4
@@ -50,6 +52,45 @@ PIKALYTICS_ALIASES: dict[str, str] = {
     "raichu-mega-x": "raichu-mega-x",
     "raichu-mega-y": "raichu-mega-y",
 }
+
+POKEDB_KEY_TO_SLUG: dict[str, str] = {
+    "0026-01": "raichu",
+    "0038-01": "ninetales",
+    "0059-01": "arcanine",
+    "0080-02": "slowbro",
+    "0128-01": "tauros",
+    "0128-02": "tauros",
+    "0128-03": "tauros",
+    "0157-01": "typhlosion",
+    "0199-01": "slowking",
+    "0479-01": "rotom",
+    "0479-02": "rotom",
+    "0479-03": "rotom",
+    "0479-04": "rotom",
+    "0479-05": "rotom",
+    "0503-01": "samurott",
+    "0571-01": "zoroark",
+    "0618-01": "stunfisk",
+    "0666-18": "vivillon",
+    "0670-05": "floette",
+    "0678-01": "meowstic-female",
+    "0706-01": "goodra",
+    "0711-01": "gourgeist-average",
+    "0711-02": "gourgeist-average",
+    "0711-03": "gourgeist-average",
+    "0713-01": "avalugg",
+    "0724-01": "decidueye",
+    "0745-01": "lycanroc-midnight",
+    "0745-02": "lycanroc-dusk",
+    "0902-01": "basculegion-female",
+}
+
+POKEDB_LIST_ENTRY_RE = re.compile(
+    r'href="/pokemon/show/(\d{4}-\d{2})\?season=\d+&rule=0"[^>]*>'
+    r'.*?pokemon-rank[^>]*>\s*(\d+)\s*<'
+    r'.*?pokemon-name">([^<]+)<',
+    re.DOTALL,
+)
 
 
 def load_json(path: Path) -> Any:
@@ -293,6 +334,176 @@ def fetch_doubles_ladder(legal_names: set[str]) -> dict[str, Any]:
     }
 
 
+def build_dex_slug_map(pokemon: list[dict[str, Any]], legal_names: set[str]) -> dict[int, str]:
+    mapping: dict[int, str] = {}
+    for entry in pokemon:
+        dex = entry.get("id")
+        name = entry.get("name")
+        if isinstance(dex, int) and isinstance(name, str) and name in legal_names:
+            mapping.setdefault(dex, name)
+    return mapping
+
+
+def resolve_pokedb_slug(
+    pokemon_key: str,
+    legal_names: set[str],
+    dex_slug_map: dict[int, str],
+) -> str | None:
+    if pokemon_key in POKEDB_KEY_TO_SLUG:
+        slug = POKEDB_KEY_TO_SLUG[pokemon_key]
+        if slug in legal_names:
+            return slug
+
+    dex_part, form_part = pokemon_key.split("-", 1)
+    try:
+        dex = int(dex_part)
+        form = int(form_part)
+    except ValueError:
+        return None
+
+    if form != 0:
+        return None
+
+    slug = dex_slug_map.get(dex)
+    if slug in legal_names:
+        return slug
+
+    return None
+
+
+def fetch_pokedb_singles_rankings(season: int) -> list[tuple[int, str, str]]:
+    url = f"{POKEDB_BASE}/pokemon/list?season={season}&rule=0"
+    html = fetch_text(url)
+    rows: list[tuple[int, str, str]] = []
+
+    for pokemon_key, rank_raw, display_name in POKEDB_LIST_ENTRY_RE.findall(html):
+        rows.append((int(rank_raw), pokemon_key, display_name.strip()))
+
+    if not rows:
+        raise RuntimeError(f"pokedb singles ranking page returned 0 entries (url={url})")
+
+    rows.sort(key=lambda row: row[0])
+    return rows
+
+
+def fetch_pokedb_opendata_team_counts(season: int) -> tuple[Counter[str], int] | None:
+    url = f"{POKEDB_BASE}/opendata/s{season}_single_ranked_teams.json"
+    try:
+        payload = fetch_json(url)
+    except RuntimeError:
+        return None
+
+    teams = payload.get("teams", [])
+    if not teams:
+        return None
+
+    counts: Counter[str] = Counter()
+    for entry in teams:
+        for mon in entry.get("team", []):
+            counts[mon.get("id", "")] += 1
+
+    return counts, len(teams)
+
+
+def build_rank_proxy_rankings(
+    rows: list[tuple[str, int]],
+) -> list[dict[str, Any]]:
+    if not rows:
+        return []
+
+    max_rank = max(rank for _, rank in rows)
+    weights = {slug: max_rank + 1 - rank for slug, rank in rows}
+    total_weight = sum(weights.values())
+
+    return [
+        {
+            "rank": rank,
+            "name": slug,
+            "count": weights[slug],
+            "usage_pct": round(weights[slug] / total_weight * 100, 1) if total_weight else 0.0,
+        }
+        for slug, rank in sorted(rows, key=lambda item: item[1])
+    ]
+
+
+def fetch_singles_ladder(
+    legal_names: set[str],
+    pokemon: list[dict[str, Any]],
+) -> dict[str, Any]:
+    print(
+        f"Fetching singles ladder meta from PokeDB "
+        f"(Season M-{POKEDB_SINGLES_SEASON}, champs.pokedb.tokyo)..."
+    )
+    dex_slug_map = build_dex_slug_map(pokemon, legal_names)
+    ranking_rows = fetch_pokedb_singles_rankings(POKEDB_SINGLES_SEASON)
+
+    slug_ranks: dict[str, int] = {}
+    for rank, pokemon_key, _display_name in ranking_rows:
+        slug = resolve_pokedb_slug(pokemon_key, legal_names, dex_slug_map)
+        if not slug:
+            continue
+        if slug not in slug_ranks or rank < slug_ranks[slug]:
+            slug_ranks[slug] = rank
+
+    opendata = fetch_pokedb_opendata_team_counts(POKEDB_SINGLES_SEASON)
+    usage_metric = "team_rate"
+    teams_tracked: int | None = None
+    rankings: list[dict[str, Any]]
+
+    if opendata:
+        opendata_counts, teams_tracked = opendata
+        slug_counts: Counter[str] = Counter()
+        for pokemon_key, count in opendata_counts.items():
+            slug = resolve_pokedb_slug(pokemon_key, legal_names, dex_slug_map)
+            if slug:
+                slug_counts[slug] += count
+
+        total_slots = sum(slug_counts.values())
+        rankings = []
+        for slug, rank in sorted(slug_ranks.items(), key=lambda item: item[1]):
+            count = slug_counts.get(slug, 0)
+            rankings.append(
+                {
+                    "rank": rank,
+                    "name": slug,
+                    "count": count,
+                    "usage_pct": round(count / total_slots * 100, 1) if total_slots else 0.0,
+                }
+            )
+        description = (
+            "Reg M-B Season M-4 singles ranked usage from PokeDB open team data "
+            "and the official usage ranking list."
+        )
+    else:
+        usage_metric = "rank_rate"
+        ranked_rows = sorted(slug_ranks.items(), key=lambda item: item[1])
+        rankings = build_rank_proxy_rankings(ranked_rows)
+        description = (
+            "Reg M-B Season M-4 singles ranked usage from バトルデータベース チャンピオンズ "
+            "(champs.pokedb.tokyo). PokeDB publishes ladder ranks but not overall usage "
+            "percentages until open team data is released; usage_pct is derived from rank "
+            "position for relative display."
+        )
+
+    return {
+        "id": "singles-ladder",
+        "label": "Singles · Ladder",
+        "battle_type": "singles",
+        "source_type": "ladder",
+        "available": True,
+        "source": {
+            "name": "PokeDB Champions",
+            "url": f"{POKEDB_BASE}/pokemon/list?season={POKEDB_SINGLES_SEASON}&rule=0",
+            "season": f"M-{POKEDB_SINGLES_SEASON}",
+            "description": description,
+        },
+        "usage_metric": usage_metric,
+        "pokemon_tracked": len(rankings),
+        "teams_tracked": teams_tracked,
+        "rankings": rankings,
+    }
+
+
 def unavailable_dataset(
     dataset_id: str,
     label: str,
@@ -327,13 +538,7 @@ def main() -> None:
             "tournament",
             "No public Reg M-B singles tournament dataset was found. Limitless only tracks VGC doubles for this regulation.",
         ),
-        "singles-ladder": unavailable_dataset(
-            "singles-ladder",
-            "Singles · Ladder",
-            "singles",
-            "ladder",
-            "No Reg M-B Battle Stadium Singles ladder dataset is published yet. Pikalytics only exposes BSS singles for Regulation M-A (gen9championsbssregma).",
-        ),
+        "singles-ladder": fetch_singles_ladder(legal_names, pokemon),
     }
 
     payload = {

@@ -55,6 +55,7 @@ Stat Points replace EVs. Each SP adds 1 to the final Lv50 stat; 32 SP ≈ the ol
 | [MetaVGC Reg M-B snapshot](https://metavgc.com/guides/pokemon-champions-regulation-m-b-legal-pokemon-items-moves) | Legal Pokemon/items/moves list | Reference only |
 | [Limitless TCG](https://play.limitlesstcg.com) | Reg M-B doubles tournament team usage | Reference only |
 | [Pikalytics](https://www.pikalytics.com/pokedex/battledataregmbs3) | Reg M-B doubles ranked ladder usage | Reference only |
+| [PokeDB Champions](https://champs.pokedb.tokyo/pokemon/list?season=4&rule=0) | Reg M-B singles ranked ladder usage (Season M-4) | Reference only |
 | [Serebii Reg M-B](https://www.serebii.net/pokemonchampions/rankedbattle/regulationm-b.shtml) | Regulation dates & new additions | Reference only |
 | [Pokemon HOME Reg M-B](https://news.pokemon-home.com/en/page/776.html) | Official regulation announcement | Reference only |
 

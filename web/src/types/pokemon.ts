@@ -89,10 +89,11 @@ export interface MetaUsageDataset {
   source_type: 'tournament' | 'ladder'
   available: boolean
   reason?: string
-  usage_metric?: 'team_rate' | 'battle_rate'
+  usage_metric?: 'team_rate' | 'battle_rate' | 'rank_rate'
   teams_tracked?: number
   tournaments?: number
   battles_tracked?: number
+  pokemon_tracked?: number
   source?: {
     name: string
     url: string
